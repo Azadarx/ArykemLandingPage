@@ -1,0 +1,3318 @@
+{
+  "metadata": {
+    "version": "3.0.0",
+    "lastUpdated": "2024-01-15",
+    "knowledgeType": "Comprehensive Product Information & Scientific Education",
+    "totalProducts": 8,
+    "totalFAQs": "500+",
+    "languages": [
+      "English",
+      "Hinglish"
+    ],
+    "disclaimer": "This knowledge base provides general product and scientific information only. It does not diagnose, prescribe, recommend individualized treatment or replace advice from a qualified healthcare professional."
+  },
+  "brand": {
+    "name": "Arykem Pharmaceuticals Private Limited",
+    "shortName": "Arykem",
+    "websitePurpose": "Corporate product and professional information website",
+    "portfolioSize": 8,
+    "categories": [
+      "Dermatology",
+      "Aesthetic Nutrition",
+      "Glutathione IV Therapy",
+      "Advanced Skincare",
+      "Clinical Wellness",
+      "Marine Nutrition",
+      "Pre & Probiotics",
+      "Bone Health"
+    ],
+    "medicalDisclaimer": "All Arykem products are intended for use as directed. IV products must be administered only by qualified healthcare professionals. Nutraceuticals and topical products should be used as per label instructions or professional guidance.",
+    "removedProducts": [
+      "EVADOME DSR",
+      "EVADOM DSR",
+      "CZARLIV",
+      "VFH GOLD"
+    ],
+    "currentProducts": [
+      "X-GLUTA TAB",
+      "X-GLUTA IV 600 mg",
+      "X-GLUTA IV 1200 mg",
+      "X-GLUTA IV 2000 mg",
+      "MarineX",
+      "LA3C",
+      "REPOB",
+      "KTOSEVEN"
+    ]
+  },
+  "products": [
+    {
+      "id": "x-gluta-tab",
+      "name": "X-GLUTA TAB",
+      "fullName": "X-GLUTA Effervescent Tablet",
+      "aliases": [
+        "xgluta tab",
+        "x gluta tablet",
+        "xgluta",
+        "gluta tab",
+        "x-gluta effervescent",
+        "xgluta effervescent tablet"
+      ],
+      "category": "Advanced Antioxidant Nutrition / Skin Nutrition",
+      "type": "Nutraceutical",
+      "verifiedFacts": {
+        "form": "Effervescent Tablet",
+        "pack": "30 Effervescent Tablets (2 tubes of 15 tablets each)",
+        "route": "Oral",
+        "prescriptionStatus": "Nutraceutical - Professional guidance recommended"
+      },
+      "composition": [
+        {
+          "ingredient": "L-Glutathione",
+          "amount": "500 mg",
+          "role": "Primary antioxidant supporting cellular redox balance and antioxidant defence",
+          "verified": true
+        },
+        {
+          "ingredient": "Astaxanthin",
+          "amount": "6 mg",
+          "role": "Carotenoid antioxidant supporting cellular protection from oxidative stress",
+          "verified": true
+        },
+        {
+          "ingredient": "N-Acetyl L-Cysteine (NAC)",
+          "amount": "50 mg",
+          "role": "Cysteine precursor supporting endogenous glutathione synthesis",
+          "verified": true
+        },
+        {
+          "ingredient": "Vitamin C",
+          "amount": "40 mg",
+          "role": "Antioxidant nutrient supporting collagen formation and glutathione recycling",
+          "verified": true
+        }
+      ],
+      "positioning": "Multi-antioxidant effervescent formulation designed to support the body's natural antioxidant defence and promote skin health through nutritional support",
+      "benefits": [
+        "Supports the body's natural antioxidant defence system",
+        "Provides nutritional support for skin health and radiance",
+        "Contributes to cellular protection from oxidative stress",
+        "Supports hydration and elasticity through antioxidant nutrition",
+        "Convenient effervescent format for daily use"
+      ],
+      "idealFor": [
+        "Individuals seeking antioxidant nutritional support",
+        "Those with dull or tired-looking skin",
+        "People exposed to environmental stressors (pollution, UV radiation)",
+        "Adults looking for comprehensive skin nutrition",
+        "Those preferring convenient effervescent delivery"
+      ],
+      "directions": {
+        "usage": "Dissolve 1 effervescent tablet in a glass of water and consume daily, or as directed by a healthcare professional",
+        "timing": "Can be taken at any convenient time",
+        "precautions": [
+          "Follow label instructions",
+          "Consult healthcare professional if pregnant, nursing, or taking medications",
+          "Keep out of reach of children",
+          "Store in a cool, dry place"
+        ]
+      },
+      "safety": {
+        "generalSafety": "Generally well-tolerated when used as directed",
+        "contraindications": [
+          "Known allergy to any ingredient",
+          "Consult healthcare professional before use if you have medical conditions",
+          "Consult healthcare professional if taking medications"
+        ],
+        "adverseEffects": "Discontinue use and consult healthcare professional if adverse reactions occur",
+        "pregnancyLactation": "Consult healthcare professional before use during pregnancy or lactation"
+      },
+      "importantNotes": [
+        "This is a nutraceutical, not a medicine",
+        "Not intended to diagnose, treat, cure, or prevent any disease",
+        "Individual results may vary",
+        "Does not guarantee skin whitening or permanent skin color change",
+        "Professional guidance recommended for optimal use"
+      ],
+      "faq": [
+        {
+          "question": "What is X-GLUTA TAB?",
+          "variations": [
+            "xgluta tab kya hai",
+            "what is x gluta",
+            "tell me about xgluta tab",
+            "x gluta tab batao"
+          ],
+          "answer": "X-GLUTA TAB is an effervescent antioxidant nutraceutical tablet containing L-Glutathione (500 mg), Astaxanthin (6 mg), N-Acetyl L-Cysteine (50 mg), and Vitamin C (40 mg). It is designed to support the body's natural antioxidant defence and promote skin health through nutritional support.",
+          "category": "Product Overview"
+        },
+        {
+          "question": "What are the ingredients in X-GLUTA TAB?",
+          "variations": [
+            "ingredients",
+            "composition",
+            "what does it contain",
+            "kya kya hai isme",
+            "formula"
+          ],
+          "answer": "X-GLUTA TAB contains: L-Glutathione 500 mg, Astaxanthin 6 mg, N-Acetyl L-Cysteine (NAC) 50 mg, and Vitamin C 40 mg per tablet.",
+          "category": "Composition"
+        },
+        {
+          "question": "How does glutathione work?",
+          "variations": [
+            "glutathione ka kaam",
+            "mechanism of glutathione",
+            "what does glutathione do",
+            "glutathione kaise kaam karta hai"
+          ],
+          "answer": "Glutathione is a naturally occurring antioxidant in the body that helps protect cells from oxidative damage. It exists in reduced (GSH) and oxidized (GSSG) forms and participates in cellular redox balance. It works through enzymatic systems to neutralize harmful reactive species and support cellular health.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "Why is NAC included in the formula?",
+          "variations": [
+            "nac ka role",
+            "why nac",
+            "what is nac for",
+            "nac kyu hai",
+            "nac benefits"
+          ],
+          "answer": "NAC (N-Acetyl L-Cysteine) provides cysteine, which is a key building block needed by the body to make its own glutathione. Cysteine availability is often the limiting factor in glutathione production, so NAC helps support the body's endogenous glutathione synthesis pathway.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "What is astaxanthin?",
+          "variations": [
+            "astaxanthin kya hai",
+            "what does astaxanthin do",
+            "astaxanthin benefits",
+            "astaxanthin ke fayde"
+          ],
+          "answer": "Astaxanthin is a powerful carotenoid antioxidant naturally found in microalgae. It has a unique molecular structure that helps protect cells from oxidative stress. In X-GLUTA TAB, it provides complementary antioxidant support alongside glutathione.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "Is X-GLUTA TAB a medicine or supplement?",
+          "variations": [
+            "medicine hai ya supplement",
+            "is it a drug",
+            "prescription required",
+            "dawai hai kya"
+          ],
+          "answer": "X-GLUTA TAB is a nutraceutical (dietary supplement), not a medicine. However, professional guidance is recommended for optimal use. It is not intended to diagnose, treat, cure, or prevent any disease.",
+          "category": "Product Classification"
+        },
+        {
+          "question": "Does X-GLUTA TAB whiten skin?",
+          "variations": [
+            "skin whitening",
+            "fairness",
+            "skin gora karega",
+            "does it lighten skin",
+            "skin tone change",
+            "fair hoga kya"
+          ],
+          "answer": "X-GLUTA TAB provides antioxidant nutritional support that may contribute to healthier-looking, more radiant skin. However, it does not guarantee skin whitening, permanent skin color change, or fairness. Individual results vary based on many factors including genetics, sun exposure, and overall health. It should not be viewed as a skin bleaching agent.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "How is X-GLUTA TAB different from X-GLUTA IV?",
+          "variations": [
+            "tab vs iv",
+            "oral vs injection",
+            "difference between tablet and iv",
+            "iv aur tab me fark"
+          ],
+          "answer": "X-GLUTA TAB is an oral effervescent tablet taken by mouth, while X-GLUTA IV is an injectable formulation administered intravenously by qualified healthcare professionals. The oral route passes through the digestive system, while IV administration delivers the ingredients directly into the bloodstream. The IV products are prescription-only and require medical supervision, while the TAB is a nutraceutical for general use with professional guidance recommended.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "How many tablets are in one pack?",
+          "variations": [
+            "pack size",
+            "kitne tablet hai",
+            "how many tablets",
+            "quantity",
+            "tablets count"
+          ],
+          "answer": "One pack of X-GLUTA TAB contains 30 effervescent tablets, packaged as 2 tubes with 15 tablets each.",
+          "category": "Pack Information"
+        },
+        {
+          "question": "How should I take X-GLUTA TAB?",
+          "variations": [
+            "directions",
+            "kaise le",
+            "how to use",
+            "usage instructions",
+            "kaise khaye"
+          ],
+          "answer": "Dissolve 1 effervescent tablet in a glass of water and consume daily, or as directed by a healthcare professional. The effervescent format makes it easy and convenient to take.",
+          "category": "Directions"
+        },
+        {
+          "question": "When should I take X-GLUTA TAB - morning or night?",
+          "variations": [
+            "best time",
+            "morning or evening",
+            "subah ya raat",
+            "timing",
+            "kab lena chahiye"
+          ],
+          "answer": "X-GLUTA TAB can be taken at any convenient time of day. Some people prefer morning for convenience, while others take it in the evening. Choose a time that works best for your routine and stick to it consistently. Consult your healthcare professional for personalized timing advice.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can everyone take X-GLUTA TAB?",
+          "variations": [
+            "who can take",
+            "safe for everyone",
+            "contraindications",
+            "kon le sakta hai",
+            "everyone use kar sakta"
+          ],
+          "answer": "While X-GLUTA TAB is generally well-tolerated, you should consult a healthcare professional before use if you are pregnant, nursing, taking medications, or have any medical conditions. Do not use if you have a known allergy to any ingredient.",
+          "category": "Safety"
+        },
+        {
+          "question": "What precautions should I follow?",
+          "variations": [
+            "safety measures",
+            "kya dhyan rakhe",
+            "precautions",
+            "warnings",
+            "savdhaniyan"
+          ],
+          "answer": "Follow the label instructions, consult a healthcare professional if you have medical conditions or are taking medications, keep out of reach of children, and store in a cool, dry place. Discontinue use if you experience any adverse reactions.",
+          "category": "Safety"
+        },
+        {
+          "question": "Is it safe during pregnancy?",
+          "variations": [
+            "pregnancy safe",
+            "can pregnant women take",
+            "pregnancy me le sakte hai",
+            "garbhavastha me safe"
+          ],
+          "answer": "If you are pregnant or nursing, please consult your healthcare professional before using X-GLUTA TAB or any dietary supplement.",
+          "category": "Safety"
+        },
+        {
+          "question": "Will it work for everyone?",
+          "variations": [
+            "results guaranteed",
+            "effectiveness",
+            "will I see results",
+            "sabko result milega",
+            "guarantee hai"
+          ],
+          "answer": "Individual results may vary. X-GLUTA TAB provides antioxidant nutritional support, but outcomes depend on many factors including baseline nutritional status, lifestyle, genetics, and overall health. It is not a guaranteed treatment and does not replace a healthy lifestyle or medical care.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Can I take it with other supplements?",
+          "variations": [
+            "drug interactions",
+            "other vitamins",
+            "combination safe",
+            "dusre supplements ke saath"
+          ],
+          "answer": "Please consult your healthcare professional before combining X-GLUTA TAB with other supplements or medications to ensure safety and avoid potential interactions.",
+          "category": "Safety"
+        },
+        {
+          "question": "How long should I take X-GLUTA TAB?",
+          "variations": [
+            "duration",
+            "kitne din tak",
+            "how many months",
+            "long term use"
+          ],
+          "answer": "Duration of use depends on your individual needs and goals. Consult your healthcare professional for personalized guidance on appropriate duration. X-GLUTA TAB can be used long-term as part of nutritional support when appropriate.",
+          "category": "Directions"
+        },
+        {
+          "question": "Do I need to take breaks between cycles?",
+          "variations": [
+            "breaks required",
+            "rest period",
+            "gap lena hai",
+            "continuous use"
+          ],
+          "answer": "Consult your healthcare professional about whether breaks are necessary for your specific situation. They can provide personalized guidance based on your individual needs and health status.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can children take X-GLUTA TAB?",
+          "variations": [
+            "kids safe",
+            "children use",
+            "bacho ke liye",
+            "age limit"
+          ],
+          "answer": "X-GLUTA TAB is designed for adults. Consult a pediatrician or healthcare professional before giving any supplement to children.",
+          "category": "Safety"
+        },
+        {
+          "question": "What if I miss a dose?",
+          "variations": [
+            "forgot to take",
+            "missed dose",
+            "skip kar diya",
+            "bhul gaye"
+          ],
+          "answer": "If you miss a dose, take it when you remember. If it's almost time for your next dose, skip the missed one and continue with your regular schedule. Do not double doses. Consistency is important for best results.",
+          "category": "Directions"
+        },
+        {
+          "question": "Does it have any taste?",
+          "variations": [
+            "flavor",
+            "taste kaisa hai",
+            "pleasant taste",
+            "smell"
+          ],
+          "answer": "X-GLUTA TAB is formulated to be pleasant-tasting when dissolved in water. The effervescent format creates a fizzy drink that most people find easy and enjoyable to consume.",
+          "category": "Product Experience"
+        },
+        {
+          "question": "How should I store X-GLUTA TAB?",
+          "variations": [
+            "storage",
+            "kaise rakhe",
+            "storage conditions",
+            "temperature"
+          ],
+          "answer": "Store X-GLUTA TAB in a cool, dry place away from direct sunlight and moisture. Keep the tube tightly closed. Keep out of reach of children.",
+          "category": "Storage"
+        },
+        {
+          "question": "Can I take X-GLUTA TAB on an empty stomach?",
+          "variations": [
+            "empty stomach",
+            "khali pet",
+            "with food",
+            "before or after food"
+          ],
+          "answer": "X-GLUTA TAB can typically be taken with or without food. If you experience any stomach discomfort, try taking it with food. Consult your healthcare professional for personalized advice.",
+          "category": "Directions"
+        },
+        {
+          "question": "Is X-GLUTA TAB vegan/vegetarian?",
+          "variations": [
+            "vegan",
+            "vegetarian",
+            "shakahari",
+            "plant based"
+          ],
+          "answer": "For specific information about vegan/vegetarian status, please check the product label or contact Arykem directly for confirmation of all ingredients and manufacturing processes.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Where can I buy X-GLUTA TAB?",
+          "variations": [
+            "where to buy",
+            "kaha se kharide",
+            "purchase",
+            "availability"
+          ],
+          "answer": "X-GLUTA TAB is available through healthcare professionals, pharmacies, and authorized distributors. Contact Arykem Pharmaceuticals or check with your healthcare professional for availability in your area.",
+          "category": "Availability"
+        },
+        {
+          "question": "How much does X-GLUTA TAB cost?",
+          "variations": [
+            "price",
+            "kitne ka hai",
+            "cost",
+            "price kya hai"
+          ],
+          "answer": "Pricing information may vary by location and distributor. Please contact Arykem Pharmaceuticals, your healthcare professional, or authorized retailers for current pricing information.",
+          "category": "Pricing"
+        },
+        {
+          "question": "Can I take more than one tablet per day?",
+          "variations": [
+            "double dose",
+            "zyada le sakte",
+            "2 tablets",
+            "increase dose"
+          ],
+          "answer": "The recommended dose is 1 tablet daily unless otherwise directed by your healthcare professional. Do not exceed the recommended dose without professional guidance. More is not necessarily better and may not be safe.",
+          "category": "Directions"
+        },
+        {
+          "question": "What are the side effects of X-GLUTA TAB?",
+          "variations": [
+            "side effects",
+            "adverse effects",
+            "nuksan",
+            "problems"
+          ],
+          "answer": "X-GLUTA TAB is generally well-tolerated when used as directed. Some individuals may experience mild digestive discomfort. Discontinue use and consult your healthcare professional if you experience any adverse reactions. Serious side effects are uncommon but should be reported immediately.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can diabetics take X-GLUTA TAB?",
+          "variations": [
+            "diabetes safe",
+            "diabetic patients",
+            "sugar patients",
+            "diabetes me safe"
+          ],
+          "answer": "Consult your healthcare professional before using X-GLUTA TAB if you have diabetes or any medical condition. They can assess whether it's appropriate for your specific situation and advise on monitoring.",
+          "category": "Safety"
+        },
+        {
+          "question": "Does X-GLUTA TAB contain sugar?",
+          "variations": [
+            "sugar free",
+            "sugar content",
+            "cheeni hai kya"
+          ],
+          "answer": "X-GLUTA TAB is sugar-free. Check the product label for complete ingredient information including any sweeteners used.",
+          "category": "Composition"
+        }
+      ],
+      "comparisonTags": [
+        "oral",
+        "effervescent",
+        "antioxidant",
+        "skin-nutrition",
+        "nutraceutical",
+        "gluta-family"
+      ],
+      "relatedProducts": [
+        "x-gluta-iv-600",
+        "x-gluta-iv-1200",
+        "x-gluta-iv-2000",
+        "marinex",
+        "la3c"
+      ]
+    },
+    {
+      "id": "x-gluta-iv-600",
+      "name": "X-GLUTA IV 600 mg",
+      "fullName": "X-GLUTA IV 600 mg Injectable",
+      "aliases": [
+        "xgluta iv 600",
+        "x gluta 600",
+        "gluta iv 600",
+        "xgluta injection 600",
+        "glutathione 600"
+      ],
+      "category": "Glutathione IV Therapy",
+      "type": "Injectable Pharmaceutical",
+      "verifiedFacts": {
+        "form": "Injectable Solution for Intravenous Administration",
+        "strength": "600 mg",
+        "route": "Intravenous (IV) only",
+        "prescriptionStatus": "Prescription-only medicine - Must be administered by qualified healthcare professionals"
+      },
+      "composition": [
+        {
+          "ingredient": "L-Glutathione",
+          "amount": "600 mg per vial",
+          "role": "Primary antioxidant for IV administration",
+          "verified": true
+        },
+        {
+          "ingredient": "Vitamin C",
+          "amount": "500 mg",
+          "role": "Reinforces antioxidant defence; regenerates oxidized glutathione",
+          "verified": true
+        }
+      ],
+      "positioning": "Entry-level glutathione IV therapy for antioxidant support under medical supervision",
+      "benefits": [
+        "Direct intravenous delivery bypassing digestive system",
+        "Provides antioxidant support under medical supervision",
+        "Entry-level dosage for glutathione IV therapy",
+        "Professional administration ensures safety"
+      ],
+      "idealFor": [
+        "Patients beginning glutathione IV therapy",
+        "Medical protocols requiring foundational glutathione dosage",
+        "Professional aesthetic and wellness programs"
+      ],
+      "directions": {
+        "usage": "MUST be administered ONLY by qualified healthcare professionals via intravenous route",
+        "administration": "Healthcare professional will determine appropriate dilution, infusion rate, and frequency",
+        "precautions": [
+          "Prescription-only medicine",
+          "Not for self-administration",
+          "Requires medical supervision",
+          "Follow healthcare professional's instructions exactly"
+        ]
+      },
+      "safety": {
+        "generalSafety": "Safe when administered by qualified healthcare professionals in appropriate clinical settings",
+        "contraindications": [
+          "Known hypersensitivity to glutathione or any component",
+          "Not for home use or self-administration",
+          "Medical evaluation required before use"
+        ],
+        "adverseEffects": "Report any adverse reactions to healthcare professional immediately",
+        "pregnancyLactation": "Use only if prescribed by healthcare professional after risk-benefit assessment"
+      },
+      "importantNotes": [
+        "PRESCRIPTION-ONLY MEDICINE",
+        "Must be administered by qualified healthcare professionals ONLY",
+        "IV administration requires medical training and supervision",
+        "Not for self-administration under any circumstances",
+        "Dosage, frequency, and treatment protocol determined by healthcare professional"
+      ],
+      "faq": [
+        {
+          "question": "What is X-GLUTA IV 600 mg?",
+          "variations": [
+            "xgluta iv 600 kya hai",
+            "what is x gluta iv 600",
+            "tell me about xgluta iv 600",
+            "600mg injection"
+          ],
+          "answer": "X-GLUTA IV 600 mg is an injectable pharmaceutical product containing 600 mg of L-Glutathione and 500 mg Vitamin C per vial, designed for intravenous administration. It is a prescription-only medicine that MUST be administered by qualified healthcare professionals in appropriate clinical settings.",
+          "category": "Product Overview"
+        },
+        {
+          "question": "Can I self-administer X-GLUTA IV at home?",
+          "variations": [
+            "can i inject myself",
+            "home use",
+            "self administration",
+            "ghar pe laga sakte hai",
+            "diy iv"
+          ],
+          "answer": "NO. X-GLUTA IV products are prescription-only medicines that MUST be administered ONLY by qualified healthcare professionals. Self-administration is dangerous and not permitted. IV therapy requires medical training, sterile technique, and professional supervision.",
+          "category": "Safety"
+        },
+        {
+          "question": "How is X-GLUTA IV 600 different from X-GLUTA TAB?",
+          "variations": [
+            "iv vs tablet",
+            "600 vs tab",
+            "injection vs oral",
+            "difference",
+            "tablet aur injection me fark"
+          ],
+          "answer": "X-GLUTA IV 600 is an injectable prescription medicine administered intravenously by healthcare professionals, delivering glutathione directly into the bloodstream. X-GLUTA TAB is an oral effervescent nutraceutical taken by mouth. IV requires medical supervision and prescription, while TAB is for general use with professional guidance recommended.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "What's the difference between 600 mg, 1200 mg, and 2000 mg strengths?",
+          "variations": [
+            "600 vs 1200 vs 2000",
+            "which strength",
+            "dosage difference",
+            "kaunsa lu",
+            "strength comparison"
+          ],
+          "answer": "The numbers (600, 1200, 2000) represent the amount of glutathione per vial in milligrams. The appropriate strength for you depends on your healthcare professional's assessment of your individual needs, treatment goals, and medical protocol. ONLY your healthcare professional can determine which strength is right for you.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "Where can I get X-GLUTA IV 600?",
+          "variations": [
+            "where to buy",
+            "kaha milega",
+            "how to get",
+            "purchase",
+            "availability"
+          ],
+          "answer": "X-GLUTA IV is a prescription-only medicine available through qualified healthcare professionals, licensed clinics, hospitals, and medical facilities. You need a prescription from a qualified healthcare professional. Contact Arykem or authorized medical distributors for professional availability.",
+          "category": "Availability"
+        },
+        {
+          "question": "Is X-GLUTA IV safe?",
+          "variations": [
+            "safety",
+            "safe hai",
+            "side effects",
+            "risks",
+            "dangerous"
+          ],
+          "answer": "X-GLUTA IV is safe when administered by qualified healthcare professionals in appropriate clinical settings following proper medical protocols. Your healthcare professional will evaluate your medical history, conduct necessary assessments, and monitor you during administration. All medical procedures carry some risk - discuss safety with your healthcare professional.",
+          "category": "Safety"
+        },
+        {
+          "question": "How often should I take X-GLUTA IV 600?",
+          "variations": [
+            "frequency",
+            "kitni baar",
+            "how many sessions",
+            "treatment schedule",
+            "baar baar"
+          ],
+          "answer": "Dosage frequency and treatment schedules are determined ONLY by your qualified healthcare professional based on your individual medical assessment, treatment goals, and response to therapy. I cannot provide dosing schedules - please consult your healthcare professional.",
+          "category": "Directions"
+        },
+        {
+          "question": "Will X-GLUTA IV whiten my skin?",
+          "variations": [
+            "skin whitening",
+            "fairness",
+            "gora hoga",
+            "skin lightening",
+            "complexion change"
+          ],
+          "answer": "X-GLUTA IV is administered for antioxidant support under medical supervision. Any effects on skin appearance vary greatly among individuals and depend on many factors. It does not guarantee skin whitening or permanent skin color change. Discuss realistic expectations with your healthcare professional before starting any treatment.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Can I take X-GLUTA TAB and X-GLUTA IV together?",
+          "variations": [
+            "combination",
+            "both together",
+            "tab and iv",
+            "dono sath",
+            "oral and injection"
+          ],
+          "answer": "The combination of oral and IV glutathione, appropriate dosages, and treatment protocols must be determined by your qualified healthcare professional based on your individual needs and safety considerations. Never combine treatments without professional guidance.",
+          "category": "Safety"
+        },
+        {
+          "question": "What are the side effects?",
+          "variations": [
+            "adverse effects",
+            "side effects kya hai",
+            "reactions",
+            "problems",
+            "nuksan"
+          ],
+          "answer": "Side effects vary among individuals. Your healthcare professional will discuss potential adverse effects before treatment and monitor you during and after administration. Report any unusual symptoms or reactions to your healthcare professional immediately. Common considerations with IV therapy include injection site reactions, but your healthcare professional will provide complete safety information.",
+          "category": "Safety"
+        },
+        {
+          "question": "Is prescription required?",
+          "variations": [
+            "need prescription",
+            "doctor required",
+            "prescription zaruri hai",
+            "without prescription"
+          ],
+          "answer": "YES. X-GLUTA IV is a prescription-only medicine. You MUST have a prescription from a qualified healthcare professional, and it MUST be administered by qualified healthcare professionals in appropriate clinical settings. It is not available for over-the-counter purchase or home use.",
+          "category": "Product Classification"
+        },
+        {
+          "question": "How long does treatment take?",
+          "variations": [
+            "duration",
+            "kitna time",
+            "session length",
+            "how long",
+            "time lagta hai"
+          ],
+          "answer": "The duration of each IV infusion session and the overall treatment duration depend on the protocol established by your healthcare professional. Infusion rate, frequency, and total treatment length are individualized based on your needs. Your healthcare professional will explain the expected timeline.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can pregnant women use X-GLUTA IV?",
+          "variations": [
+            "pregnancy",
+            "pregnant hai",
+            "pregnancy safe",
+            "expecting",
+            "garbhavastha"
+          ],
+          "answer": "Use during pregnancy or lactation ONLY if prescribed by your healthcare professional after careful risk-benefit assessment. Inform your healthcare professional if you are pregnant, planning pregnancy, or breastfeeding. Medical supervision is essential.",
+          "category": "Safety"
+        },
+        {
+          "question": "What should I do before my first IV session?",
+          "variations": [
+            "preparation",
+            "kya kare pehle",
+            "before treatment",
+            "ready kaise ho",
+            "first time"
+          ],
+          "answer": "Your healthcare professional will provide specific pre-treatment instructions. Generally: provide complete medical history, list all medications and supplements, disclose allergies, follow any fasting or hydration instructions, and ask all your questions. Follow your healthcare professional's guidance exactly.",
+          "category": "Directions"
+        },
+        {
+          "question": "Does it hurt?",
+          "variations": [
+            "painful",
+            "dard hota hai",
+            "injection pain",
+            "hurts",
+            "needle pain"
+          ],
+          "answer": "IV insertion involves a needle stick which causes brief discomfort. Experienced healthcare professionals minimize discomfort through proper technique. Most patients tolerate IV therapy well. Discuss any concerns about pain or anxiety with your healthcare professional before treatment.",
+          "category": "Patient Experience"
+        },
+        {
+          "question": "Why is 600 mg called entry-level?",
+          "variations": [
+            "entry level meaning",
+            "beginner dose",
+            "starting dose",
+            "first strength"
+          ],
+          "answer": "600 mg is the foundational strength in the X-GLUTA IV range, suitable for patients beginning IV glutathione therapy. Starting with a moderate dose allows healthcare professionals to assess individual tolerance and response before considering higher strengths if clinically appropriate.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Can I request a specific strength from my doctor?",
+          "variations": [
+            "ask for 600",
+            "request strength",
+            "choose dose",
+            "doctor se mang sakte"
+          ],
+          "answer": "You can discuss your preferences with your healthcare professional, but they make the final clinical decision about appropriate strength based on medical assessment, not patient demand. Trust their professional judgment about what's best for your individual situation.",
+          "category": "Medical Protocol"
+        },
+        {
+          "question": "Is 600 mg enough or should I get higher?",
+          "variations": [
+            "600 sufficient",
+            "need more",
+            "effective dose",
+            "kaafi hai"
+          ],
+          "answer": "600 mg may be perfectly adequate for your needs - higher is not automatically better. Effectiveness depends on proper patient selection, treatment protocol, and individual response, not just dose size. Your healthcare professional will determine if 600 mg is appropriate or if adjustment is needed based on your clinical response.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "How many sessions will I need?",
+          "variations": [
+            "number of sessions",
+            "kitni baar lena",
+            "treatment course",
+            "total sessions"
+          ],
+          "answer": "The number of sessions varies based on individual treatment goals, clinical response, and healthcare professional's protocol. Some protocols involve weekly sessions, others are different. Your healthcare professional will outline your specific treatment plan.",
+          "category": "Medical Protocol"
+        },
+        {
+          "question": "What is the role of Vitamin C in the formula?",
+          "variations": [
+            "vitamin c role",
+            "why vitamin c",
+            "500mg vitamin c",
+            "ascorbic acid"
+          ],
+          "answer": "Vitamin C (500 mg) works synergistically with glutathione - it helps regenerate oxidized glutathione back to its active form, provides complementary antioxidant support, and helps stabilize the formulation. This combination enhances overall antioxidant effectiveness.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "Can diabetics receive X-GLUTA IV 600?",
+          "variations": [
+            "diabetes safe",
+            "diabetic patients",
+            "sugar patient",
+            "diabetes me safe"
+          ],
+          "answer": "Diabetic patients can potentially receive X-GLUTA IV if their healthcare professional determines it's clinically appropriate. Diabetes is not an automatic contraindication, but requires medical evaluation and monitoring. Discuss your diabetes with your healthcare professional before treatment.",
+          "category": "Safety"
+        },
+        {
+          "question": "Will insurance cover X-GLUTA IV?",
+          "variations": [
+            "insurance coverage",
+            "insurance milega",
+            "reimbursement",
+            "claim"
+          ],
+          "answer": "Insurance coverage varies by policy, provider, indication, and region. X-GLUTA IV for aesthetic/wellness purposes is typically not covered. For medical indications, check with your insurance provider. Contact Arykem or your healthcare facility for payment information.",
+          "category": "Financial"
+        },
+        {
+          "question": "Can I drive after IV session?",
+          "variations": [
+            "driving safe",
+            "drive home",
+            "gadi chala sakte",
+            "after treatment"
+          ],
+          "answer": "Most patients can drive after glutathione IV sessions, but individual reactions vary. Some people may feel tired or lightheaded. Discuss this with your healthcare professional and consider having someone accompany you for your first session to assess how you respond.",
+          "category": "Patient Experience"
+        },
+        {
+          "question": "Should I eat before IV session?",
+          "variations": [
+            "fasting required",
+            "empty stomach",
+            "khana khake",
+            "food before"
+          ],
+          "answer": "Your healthcare professional will provide specific pre-treatment instructions about eating. Some protocols recommend light meals before IV therapy, while others have different guidelines. Follow your healthcare professional's specific directions.",
+          "category": "Directions"
+        },
+        {
+          "question": "What if I have allergies?",
+          "variations": [
+            "allergy",
+            "allergic reaction",
+            "allergy hai",
+            "sensitive"
+          ],
+          "answer": "Inform your healthcare professional about ALL allergies (medications, foods, environmental) before receiving X-GLUTA IV. They will assess allergy risk and determine if treatment is safe. Allergic reactions are possible with any medication - professional monitoring is essential.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can I work out after IV session?",
+          "variations": [
+            "exercise after",
+            "gym jana",
+            "workout",
+            "physical activity"
+          ],
+          "answer": "Consult your healthcare professional about physical activity after IV sessions. Generally, light activity is fine, but intense exercise immediately after may not be ideal. Follow your healthcare professional's specific recommendations for your situation.",
+          "category": "Lifestyle"
+        },
+        {
+          "question": "How is the IV administered?",
+          "variations": [
+            "administration method",
+            "kaise lagaya",
+            "procedure",
+            "how injected"
+          ],
+          "answer": "X-GLUTA IV is administered through an intravenous line (IV catheter) inserted into a vein, typically in the arm. The solution is infused slowly over a period determined by your healthcare professional. The entire process is performed by qualified medical professionals in a clinical setting.",
+          "category": "Medical Procedure"
+        },
+        {
+          "question": "What should I expect during the session?",
+          "variations": [
+            "experience",
+            "kya hoga",
+            "feeling during",
+            "session me"
+          ],
+          "answer": "During the IV session, you'll be seated or lying comfortably while the solution infuses. You should not feel pain during infusion (only brief discomfort during IV insertion). Healthcare staff will monitor you throughout. Many patients relax, read, or use their phones during the session. Report any unusual sensations immediately.",
+          "category": "Patient Experience"
+        },
+        {
+          "question": "Can I stop treatment anytime?",
+          "variations": [
+            "discontinue",
+            "quit treatment",
+            "stop karna",
+            "end therapy"
+          ],
+          "answer": "You have the right to discontinue treatment, but discuss this decision with your healthcare professional first. They can address any concerns and ensure proper discontinuation if needed. Stopping mid-treatment course may not provide desired results.",
+          "category": "Medical Protocol"
+        },
+        {
+          "question": "Is there any smell or taste during IV?",
+          "variations": [
+            "smell",
+            "taste",
+            "smell aati",
+            "metallic taste"
+          ],
+          "answer": "Some patients report mild unusual taste sensations during IV infusions (sometimes described as metallic or vitamin-like). This is typically harmless. The solution itself is administered intravenously, not orally. Report any concerning symptoms to the healthcare professional administering your treatment.",
+          "category": "Patient Experience"
+        }
+      ],
+      "comparisonTags": [
+        "iv",
+        "injectable",
+        "prescription",
+        "medical-supervision",
+        "gluta-family",
+        "entry-level"
+      ],
+      "relatedProducts": [
+        "x-gluta-iv-1200",
+        "x-gluta-iv-2000",
+        "x-gluta-tab"
+      ]
+    },
+    {
+      "id": "x-gluta-iv-1200",
+      "name": "X-GLUTA IV 1200 mg",
+      "fullName": "X-GLUTA IV 1200 mg Injectable",
+      "aliases": [
+        "xgluta iv 1200",
+        "x gluta 1200",
+        "gluta iv 1200",
+        "xgluta injection 1200",
+        "glutathione 1200"
+      ],
+      "category": "Glutathione IV Therapy",
+      "type": "Injectable Pharmaceutical",
+      "verifiedFacts": {
+        "form": "Injectable Solution for Intravenous Administration",
+        "strength": "1200 mg",
+        "route": "Intravenous (IV) only",
+        "prescriptionStatus": "Prescription-only medicine - Must be administered by qualified healthcare professionals"
+      },
+      "composition": [
+        {
+          "ingredient": "L-Glutathione",
+          "amount": "1200 mg per vial",
+          "role": "Primary antioxidant for IV administration",
+          "verified": true
+        },
+        {
+          "ingredient": "Vitamin C",
+          "amount": "500 mg",
+          "role": "Reinforces antioxidant defence; regenerates oxidized glutathione",
+          "verified": true
+        }
+      ],
+      "positioning": "Mid-strength glutathione IV therapy for comprehensive antioxidant support under medical supervision",
+      "benefits": [
+        "Direct intravenous delivery bypassing digestive system",
+        "Mid-range dosage for established IV therapy protocols",
+        "Provides comprehensive antioxidant support under medical supervision",
+        "Professional administration ensures safety and efficacy"
+      ],
+      "idealFor": [
+        "Patients progressing in glutathione IV therapy",
+        "Medical protocols requiring moderate glutathione dosage",
+        "Comprehensive aesthetic and wellness programs under medical supervision"
+      ],
+      "directions": {
+        "usage": "MUST be administered ONLY by qualified healthcare professionals via intravenous route",
+        "administration": "Healthcare professional will determine appropriate dilution, infusion rate, and frequency",
+        "precautions": [
+          "Prescription-only medicine",
+          "Not for self-administration",
+          "Requires medical supervision",
+          "Follow healthcare professional's instructions exactly"
+        ]
+      },
+      "safety": {
+        "generalSafety": "Safe when administered by qualified healthcare professionals in appropriate clinical settings",
+        "contraindications": [
+          "Known hypersensitivity to glutathione or any component",
+          "Not for home use or self-administration",
+          "Medical evaluation required before use"
+        ],
+        "adverseEffects": "Report any adverse reactions to healthcare professional immediately",
+        "pregnancyLactation": "Use only if prescribed by healthcare professional after risk-benefit assessment"
+      },
+      "importantNotes": [
+        "PRESCRIPTION-ONLY MEDICINE",
+        "Must be administered by qualified healthcare professionals ONLY",
+        "IV administration requires medical training and supervision",
+        "Not for self-administration under any circumstances",
+        "Dosage, frequency, and treatment protocol determined by healthcare professional"
+      ],
+      "faq": [
+        {
+          "question": "What is X-GLUTA IV 1200 mg?",
+          "variations": [
+            "xgluta iv 1200 kya hai",
+            "what is x gluta iv 1200",
+            "tell me about xgluta iv 1200"
+          ],
+          "answer": "X-GLUTA IV 1200 mg is an injectable pharmaceutical product containing 1200 mg of L-Glutathione and 500 mg Vitamin C per vial, designed for intravenous administration. It is a prescription-only medicine that MUST be administered by qualified healthcare professionals in appropriate clinical settings.",
+          "category": "Product Overview"
+        },
+        {
+          "question": "Is 1200 mg better than 600 mg?",
+          "variations": [
+            "1200 vs 600",
+            "which is better",
+            "higher dose better",
+            "zyada acha"
+          ],
+          "answer": "'Better' depends entirely on your individual needs, medical assessment, and treatment goals. Higher dose does not automatically mean better results. Your healthcare professional will determine the appropriate strength based on your specific situation. Trust your healthcare professional's medical judgment.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "Why would someone choose 1200 mg over other strengths?",
+          "variations": [
+            "why 1200",
+            "1200 kyu",
+            "reason for 1200",
+            "when to use 1200"
+          ],
+          "answer": "Healthcare professionals may choose 1200 mg based on patient's treatment progression, clinical response to previous therapy, specific treatment goals, and medical protocols. The choice depends on individualized medical assessment. Your healthcare professional will explain their clinical reasoning for recommending a specific strength.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "Can I start directly with 1200 mg?",
+          "variations": [
+            "begin with 1200",
+            "first time 1200",
+            "start directly",
+            "pehli baar 1200"
+          ],
+          "answer": "The starting dose is determined by your healthcare professional based on your medical evaluation, treatment objectives, and individual factors. Some patients may start with 1200 mg if clinically appropriate, while others may begin with lower doses. Your healthcare professional will determine the best starting protocol for you.",
+          "category": "Directions"
+        },
+        {
+          "question": "How long until I see results with 1200 mg?",
+          "variations": [
+            "results kab",
+            "how long to work",
+            "effect time",
+            "kitne din me"
+          ],
+          "answer": "Response time varies significantly among individuals depending on baseline health status, treatment frequency, lifestyle factors, and individual physiology. Some patients notice changes sooner, others later. Results are not guaranteed and vary. Discuss realistic expectations and timelines with your healthcare professional.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Can I switch between different strengths?",
+          "variations": [
+            "change strength",
+            "switch dose",
+            "600 se 1200",
+            "dose badal sakte"
+          ],
+          "answer": "Changes to dosage strength are determined ONLY by your healthcare professional based on your clinical response, treatment progress, and ongoing medical assessment. Never change doses or strengths without professional guidance. Your healthcare professional will adjust your treatment protocol as medically appropriate.",
+          "category": "Safety"
+        },
+        {
+          "question": "Is 1200 mg safe?",
+          "variations": [
+            "1200 safe hai",
+            "safety of 1200",
+            "risks of 1200"
+          ],
+          "answer": "X-GLUTA IV 1200 mg is safe when administered by qualified healthcare professionals following proper medical protocols. Your healthcare professional will evaluate your suitability for this strength, monitor you during treatment, and adjust as needed. Safety depends on proper medical supervision and individualized care.",
+          "category": "Safety"
+        },
+        {
+          "question": "What's included in 1200 mg formula?",
+          "variations": [
+            "composition",
+            "ingredients",
+            "formula kya hai",
+            "what contains"
+          ],
+          "answer": "X-GLUTA IV 1200 mg contains 1200 mg of L-Glutathione and 500 mg Vitamin C per vial as the primary active ingredients. Your healthcare professional can provide complete product information including any excipients or formulation details from the product literature.",
+          "category": "Composition"
+        },
+        {
+          "question": "How is 1200 mg administered?",
+          "variations": [
+            "administration",
+            "kaise dete hai",
+            "how given",
+            "infusion"
+          ],
+          "answer": "X-GLUTA IV 1200 mg is administered intravenously by qualified healthcare professionals. They will determine appropriate dilution, infusion rate, infusion duration, and monitoring requirements. IV administration requires medical training and proper clinical setup. Your healthcare professional manages all technical aspects.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can I use 1200 mg at home?",
+          "variations": [
+            "home use 1200",
+            "ghar pe",
+            "self administer 1200"
+          ],
+          "answer": "NO. X-GLUTA IV 1200 mg is a prescription-only medicine that MUST be administered ONLY by qualified healthcare professionals in appropriate clinical settings. Home use and self-administration are dangerous and not permitted under any circumstances.",
+          "category": "Safety"
+        },
+        {
+          "question": "What if 1200 mg is too strong for me?",
+          "variations": [
+            "too strong",
+            "sensitivity",
+            "dose too high",
+            "reaction"
+          ],
+          "answer": "Your healthcare professional assesses your suitability for 1200 mg before treatment and monitors you during administration. If you experience any concerns or adverse reactions, they can adjust the protocol, infusion rate, or strength as medically appropriate. Open communication with your healthcare professional is important.",
+          "category": "Safety"
+        },
+        {
+          "question": "Why is it called mid-strength?",
+          "variations": [
+            "mid strength meaning",
+            "middle dose",
+            "moderate strength"
+          ],
+          "answer": "1200 mg sits between the entry-level 600 mg and the highest 2000 mg strength, making it a mid-range option. This provides healthcare professionals flexibility to match dosage to individual patient needs and treatment progression.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Do I need to progress from 600 to 1200?",
+          "variations": [
+            "progression",
+            "step up",
+            "gradually increase",
+            "600 pehle"
+          ],
+          "answer": "Not necessarily. Treatment protocols vary - some patients start with 1200 mg directly if clinically appropriate, while others progress from lower doses based on response. Your healthcare professional designs your protocol based on medical assessment, not a fixed progression requirement.",
+          "category": "Medical Protocol"
+        },
+        {
+          "question": "How many vials per session?",
+          "variations": [
+            "number of vials",
+            "kitne vial",
+            "single vial",
+            "multiple vials"
+          ],
+          "answer": "Typically one vial per session, but your healthcare professional determines the exact protocol including number of vials, frequency, and total treatment plan based on your individual needs and clinical goals.",
+          "category": "Medical Procedure"
+        },
+        {
+          "question": "Can I combine 1200 mg with other IV therapies?",
+          "variations": [
+            "combination iv",
+            "other drips",
+            "vitamin drip sath",
+            "iv cocktail"
+          ],
+          "answer": "Combination IV therapies must be determined and supervised by your healthcare professional based on safety, compatibility, and clinical appropriateness. Never assume combinations are safe - professional medical judgment is required.",
+          "category": "Medical Protocol"
+        },
+        {
+          "question": "What results can I expect from 1200 mg?",
+          "variations": [
+            "expected results",
+            "kya hoga",
+            "benefits milenge",
+            "outcomes"
+          ],
+          "answer": "X-GLUTA IV 1200 mg provides antioxidant support under medical supervision. Individual results vary greatly and depend on many factors including baseline health, treatment frequency, lifestyle, and genetics. It does not guarantee specific outcomes. Discuss realistic expectations with your healthcare professional before starting treatment.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Is 1200 mg popular/common?",
+          "variations": [
+            "commonly used",
+            "popular strength",
+            "most used",
+            "sabse zyada"
+          ],
+          "answer": "Strength selection depends on individual medical needs, not popularity. What's common or popular is irrelevant to what's right for you. Your healthcare professional chooses based on clinical assessment, not trends. Focus on what's medically appropriate for your situation.",
+          "category": "Product Information"
+        },
+        {
+          "question": "How does 1200 mg compare to oral supplements?",
+          "variations": [
+            "vs oral",
+            "iv vs pills",
+            "injection vs tablets"
+          ],
+          "answer": "IV administration delivers glutathione directly into the bloodstream, bypassing digestive absorption. This may achieve higher plasma concentrations compared to oral supplements. However, this doesn't make IV automatically 'better' - the appropriate route depends on individual needs, goals, and medical guidance.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "Can athletes use 1200 mg?",
+          "variations": [
+            "sports person",
+            "fitness",
+            "bodybuilding",
+            "athlete"
+          ],
+          "answer": "Athletes can potentially receive X-GLUTA IV if their healthcare professional determines it's clinically appropriate and compliant with any relevant anti-doping regulations. Athletes should consult sports medicine professionals and check applicable sports authority rules before any IV therapy.",
+          "category": "Lifestyle"
+        },
+        {
+          "question": "Will 1200 mg boost my immune system?",
+          "variations": [
+            "immunity",
+            "immune boost",
+            "infection protection",
+            "immunity badha"
+          ],
+          "answer": "Glutathione plays a role in immune function, but X-GLUTA IV 1200 mg is not marketed as an immune system booster or infection preventive. It provides antioxidant support. For immune health concerns, consult your healthcare professional for appropriate interventions.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "How long does each 1200 mg session take?",
+          "variations": [
+            "session duration",
+            "kitna time",
+            "infusion time",
+            "hours"
+          ],
+          "answer": "Session duration varies based on dilution, infusion rate, and monitoring requirements determined by your healthcare professional. Typical IV infusion sessions may range from 30 minutes to a few hours. Your healthcare professional will inform you of expected session length for your specific protocol.",
+          "category": "Patient Experience"
+        },
+        {
+          "question": "Do I need blood tests before 1200 mg?",
+          "variations": [
+            "lab tests",
+            "blood work",
+            "tests required",
+            "investigation"
+          ],
+          "answer": "Your healthcare professional will determine what assessments (if any) are needed before treatment. This may include medical history review, physical examination, and laboratory tests based on individual factors. Follow your healthcare professional's pre-treatment evaluation protocol.",
+          "category": "Medical Procedure"
+        },
+        {
+          "question": "Can I take medications with 1200 mg IV?",
+          "variations": [
+            "medicine ke saath",
+            "drug interaction",
+            "medications safe",
+            "dawa le sakte"
+          ],
+          "answer": "Inform your healthcare professional about ALL medications, supplements, and herbal products you take. They will assess potential interactions and determine if X-GLUTA IV 1200 mg is safe with your current medications. Never assume combinations are safe without professional evaluation.",
+          "category": "Safety"
+        },
+        {
+          "question": "What if I miss a scheduled 1200 mg session?",
+          "variations": [
+            "missed appointment",
+            "skip session",
+            "bhul gaye",
+            "appointment miss"
+          ],
+          "answer": "If you miss a scheduled session, contact your healthcare professional or treatment facility to reschedule. They will advise whether any protocol adjustments are needed. Consistency is generally important for optimal results, so try to maintain your recommended schedule.",
+          "category": "Medical Protocol"
+        },
+        {
+          "question": "Can vegetarians/vegans receive 1200 mg?",
+          "variations": [
+            "vegetarian safe",
+            "vegan",
+            "shakahari",
+            "plant based"
+          ],
+          "answer": "X-GLUTA IV 1200 mg formulation details can be confirmed with Arykem. Glutathione can be produced through fermentation or synthesis. For specific information about formulation sources and suitability for vegetarians/vegans, contact Arykem directly or consult your healthcare professional.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Will 1200 mg help with hangovers?",
+          "variations": [
+            "hangover cure",
+            "alcohol",
+            "drinking",
+            "party ke baad"
+          ],
+          "answer": "X-GLUTA IV is not marketed or approved as a hangover treatment. While some wellness centers may promote IV therapies for hangovers, X-GLUTA IV 1200 mg is medical therapy for antioxidant support under professional supervision. Consult your healthcare professional for appropriate uses.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Can I donate blood after receiving 1200 mg?",
+          "variations": [
+            "blood donation",
+            "donate blood",
+            "khoon de sakte",
+            "blood bank"
+          ],
+          "answer": "Consult your healthcare professional and the blood donation center about appropriate waiting periods after receiving IV therapy. Different blood banks may have different policies regarding recent IV treatments and blood donation eligibility.",
+          "category": "Lifestyle"
+        },
+        {
+          "question": "Does 1200 mg need to be refrigerated?",
+          "variations": [
+            "storage",
+            "refrigeration",
+            "fridge",
+            "temperature"
+          ],
+          "answer": "Storage requirements are specified on the product packaging and should be followed by the medical facility. As a patient, you don't handle storage - the healthcare facility manages proper storage conditions. For product storage information, refer to packaging or contact Arykem.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Can I fly after a 1200 mg session?",
+          "variations": [
+            "air travel",
+            "flying",
+            "airplane",
+            "travel"
+          ],
+          "answer": "Most patients can travel after IV sessions, but individual responses vary. If you're planning travel soon after treatment, discuss this with your healthcare professional beforehand. They can advise based on your individual response and travel plans.",
+          "category": "Lifestyle"
+        },
+        {
+          "question": "Is there an age limit for 1200 mg?",
+          "variations": [
+            "age restriction",
+            "how old",
+            "elderly",
+            "young"
+          ],
+          "answer": "X-GLUTA IV 1200 mg is typically for adults. Age considerations (both young and elderly) require healthcare professional evaluation of suitability, potential risks, and benefits. Your healthcare professional will assess whether this treatment is appropriate for your age and overall health status.",
+          "category": "Safety"
+        }
+      ],
+      "comparisonTags": [
+        "iv",
+        "injectable",
+        "prescription",
+        "medical-supervision",
+        "mid-strength",
+        "gluta-family"
+      ],
+      "relatedProducts": [
+        "x-gluta-iv-600",
+        "x-gluta-iv-2000",
+        "x-gluta-tab"
+      ]
+    },
+    {
+      "id": "x-gluta-iv-2000",
+      "name": "X-GLUTA IV 2000 mg",
+      "fullName": "X-GLUTA IV 2000 mg Injectable",
+      "aliases": [
+        "xgluta iv 2000",
+        "x gluta 2000",
+        "gluta iv 2000",
+        "xgluta injection 2000",
+        "highest strength",
+        "glutathione 2000"
+      ],
+      "category": "Glutathione IV Therapy",
+      "type": "Injectable Pharmaceutical",
+      "verifiedFacts": {
+        "form": "Injectable Solution for Intravenous Administration",
+        "strength": "2000 mg",
+        "route": "Intravenous (IV) only",
+        "prescriptionStatus": "Prescription-only medicine - Must be administered by qualified healthcare professionals"
+      },
+      "composition": [
+        {
+          "ingredient": "L-Glutathione",
+          "amount": "2000 mg per vial",
+          "role": "Primary antioxidant for IV administration",
+          "verified": true
+        },
+        {
+          "ingredient": "Vitamin C",
+          "amount": "500 mg",
+          "role": "Reinforces antioxidant defence; regenerates oxidized glutathione",
+          "verified": true
+        }
+      ],
+      "positioning": "Premium high-strength glutathione IV therapy for intensive antioxidant support under strict medical supervision",
+      "benefits": [
+        "Direct intravenous delivery bypassing digestive system",
+        "Highest strength in X-GLUTA IV range for intensive therapy",
+        "Provides maximum antioxidant support under medical supervision",
+        "Professional administration ensures safety with higher dosage"
+      ],
+      "idealFor": [
+        "Patients requiring intensive glutathione IV therapy",
+        "Advanced medical protocols under specialist supervision",
+        "Comprehensive therapeutic programs requiring higher dosages"
+      ],
+      "directions": {
+        "usage": "MUST be administered ONLY by qualified healthcare professionals via intravenous route",
+        "administration": "Healthcare professional will determine appropriate dilution, infusion rate, and frequency - especially important at this higher strength",
+        "precautions": [
+          "Prescription-only medicine",
+          "Not for self-administration",
+          "Requires strict medical supervision",
+          "Highest strength requires careful professional monitoring",
+          "Follow healthcare professional's instructions exactly"
+        ]
+      },
+      "safety": {
+        "generalSafety": "Safe when administered by qualified healthcare professionals in appropriate clinical settings with proper monitoring",
+        "contraindications": [
+          "Known hypersensitivity to glutathione or any component",
+          "Not for home use or self-administration",
+          "Comprehensive medical evaluation required before use",
+          "Higher strength requires thorough patient assessment"
+        ],
+        "adverseEffects": "Report any adverse reactions to healthcare professional immediately. Higher strength requires careful monitoring.",
+        "pregnancyLactation": "Use only if prescribed by healthcare professional after careful risk-benefit assessment"
+      },
+      "importantNotes": [
+        "PRESCRIPTION-ONLY MEDICINE - HIGHEST STRENGTH",
+        "Must be administered by qualified healthcare professionals ONLY",
+        "Requires comprehensive medical evaluation and ongoing monitoring",
+        "Not for self-administration under any circumstances",
+        "Dosage, frequency, and treatment protocol strictly determined by healthcare professional",
+        "Higher strength does not guarantee better or faster results"
+      ],
+      "faq": [
+        {
+          "question": "What is X-GLUTA IV 2000 mg?",
+          "variations": [
+            "xgluta iv 2000 kya hai",
+            "what is x gluta iv 2000",
+            "tell me about xgluta iv 2000",
+            "highest strength"
+          ],
+          "answer": "X-GLUTA IV 2000 mg is the highest strength injectable pharmaceutical product in the X-GLUTA IV range, containing 2000 mg of L-Glutathione and 500 mg Vitamin C per vial. It is a prescription-only medicine that MUST be administered by qualified healthcare professionals in appropriate clinical settings with proper monitoring.",
+          "category": "Product Overview"
+        },
+        {
+          "question": "Is 2000 mg the most effective strength?",
+          "variations": [
+            "2000 best",
+            "highest best",
+            "most effective",
+            "sabse acha"
+          ],
+          "answer": "Higher strength does NOT automatically mean more effective results. Effectiveness depends on proper patient selection, appropriate medical indication, correct administration, and individual response - not just dose. Your healthcare professional determines the right strength based on medical assessment, not a 'more is better' approach. Optimal results require the RIGHT dose for YOU, which may be lower.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Should I choose 2000 mg for faster results?",
+          "variations": [
+            "faster results",
+            "quick effect",
+            "jaldi result",
+            "2000 faster"
+          ],
+          "answer": "Higher dose does not guarantee faster or better results. Results depend on many individual factors beyond dosage. Some patients may actually respond better to lower, more frequent doses. Your healthcare professional will design a protocol based on medical science and your individual needs - not assumptions about dose and speed.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Who should use 2000 mg strength?",
+          "variations": [
+            "who needs 2000",
+            "kiske liye",
+            "right for me",
+            "appropriate for"
+          ],
+          "answer": "X-GLUTA IV 2000 mg is appropriate for patients whose healthcare professional determines - through comprehensive medical assessment - that this specific strength aligns with their treatment objectives and medical profile. Not everyone needs or should use the highest strength. Your healthcare professional will decide based on clinical judgment, not patient preference alone.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can I start treatment directly with 2000 mg?",
+          "variations": [
+            "begin with 2000",
+            "first time 2000",
+            "start highest",
+            "directly 2000"
+          ],
+          "answer": "Your healthcare professional determines the appropriate starting strength. Some patients may start with 2000 mg if clinically indicated, but many protocols begin with lower strengths to assess tolerance and response before advancing. Starting strength depends on medical evaluation, treatment goals, and individual factors - not patient demand for 'highest strength'.",
+          "category": "Directions"
+        },
+        {
+          "question": "Is 2000 mg safe?",
+          "variations": [
+            "2000 safe hai",
+            "safety highest dose",
+            "risks 2000",
+            "too much"
+          ],
+          "answer": "X-GLUTA IV 2000 mg is safe when administered by qualified healthcare professionals following proper medical protocols with appropriate patient selection and monitoring. Your healthcare professional will evaluate whether this strength is safe and appropriate FOR YOU specifically. Safety depends on proper medical supervision, patient suitability, and individualized care.",
+          "category": "Safety"
+        },
+        {
+          "question": "What are the side effects of 2000 mg?",
+          "variations": [
+            "side effects 2000",
+            "adverse effects high dose",
+            "problems with 2000"
+          ],
+          "answer": "Side effects can occur with any medication and vary among individuals. Your healthcare professional will discuss potential adverse effects specific to this strength before treatment and monitor you carefully. Higher strength requires thorough monitoring. Report any unusual symptoms immediately. Your healthcare professional provides complete safety information tailored to you.",
+          "category": "Safety"
+        },
+        {
+          "question": "How often can I take 2000 mg?",
+          "variations": [
+            "frequency 2000",
+            "kitni baar",
+            "how many times",
+            "schedule"
+          ],
+          "answer": "Frequency of administration is determined ONLY by your healthcare professional based on medical protocols, your individual response, safety monitoring, and treatment objectives. I cannot provide dosing schedules. Higher strengths may require different frequency considerations. Consult your healthcare professional for your specific treatment schedule.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can I switch from lower strength to 2000 mg?",
+          "variations": [
+            "upgrade to 2000",
+            "increase to 2000",
+            "600 to 2000",
+            "change strength"
+          ],
+          "answer": "Strength adjustments are made ONLY by your healthcare professional based on your clinical response, treatment progress, tolerance, and ongoing medical assessment. Changes to higher strengths require medical justification and careful monitoring. Your healthcare professional will adjust your treatment protocol if and when medically appropriate.",
+          "category": "Safety"
+        },
+        {
+          "question": "Is 2000 mg necessary for skin brightening?",
+          "variations": [
+            "whitening need 2000",
+            "fairness high dose",
+            "skin pe 2000 zaruri"
+          ],
+          "answer": "Higher strength is not necessarily required for any specific outcome. Response varies greatly among individuals regardless of dose. X-GLUTA IV 2000 mg is medical therapy for antioxidant support - it does not guarantee skin whitening or specific cosmetic results. Medical indication for this strength goes beyond cosmetic goals. Discuss realistic expectations with your healthcare professional.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Where can I get X-GLUTA IV 2000 mg?",
+          "variations": [
+            "where to buy 2000",
+            "kaha milega",
+            "purchase 2000",
+            "availability"
+          ],
+          "answer": "X-GLUTA IV 2000 mg is a prescription-only medicine available through qualified healthcare professionals, licensed clinics, hospitals, and medical facilities that provide IV therapy. You need a prescription from a qualified healthcare professional. Contact Arykem or authorized medical distributors for professional availability. Due to higher strength, not all facilities may stock this strength.",
+          "category": "Availability"
+        },
+        {
+          "question": "How long does 2000 mg infusion take?",
+          "variations": [
+            "infusion time",
+            "duration",
+            "kitna time lagta",
+            "session length"
+          ],
+          "answer": "Infusion duration for 2000 mg is determined by your healthcare professional based on proper dilution, safe infusion rate, and patient monitoring requirements. Higher strength may require longer infusion time to ensure safety. Your healthcare professional will explain the expected session duration for your specific protocol.",
+          "category": "Directions"
+        },
+        {
+          "question": "What if 2000 mg is too strong for me?",
+          "variations": [
+            "dose too high",
+            "too powerful",
+            "sensitivity",
+            "strong reaction"
+          ],
+          "answer": "Your healthcare professional conducts thorough assessment before prescribing 2000 mg and monitors you closely during treatment. If you experience any concerns, they can adjust the protocol, infusion rate, or switch to a lower strength. The goal is your safety and appropriate care, not using the 'highest' dose.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can I request 2000 mg from my doctor?",
+          "variations": [
+            "ask for 2000",
+            "demand highest",
+            "insist on 2000"
+          ],
+          "answer": "You can discuss your preferences with your healthcare professional, but they make the final clinical decision based on medical assessment, not patient demand. They may determine a lower strength is more appropriate for your situation. Trust their professional judgment - they prioritize your safety and appropriate care over preferences for 'maximum' doses.",
+          "category": "Medical Protocol"
+        },
+        {
+          "question": "Will I see better results with 2000 mg than 600 mg?",
+          "variations": [
+            "2000 vs 600 results",
+            "better outcomes",
+            "comparison effectiveness"
+          ],
+          "answer": "Results depend on proper patient selection, treatment protocol, frequency, and individual response - not just dose size. Some patients respond excellently to 600 mg, while others may need higher doses. 'Better' is individual and medical, not a simple dose comparison. Your healthcare professional determines what's optimal for YOU.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Is 2000 mg for professional use only?",
+          "variations": [
+            "professionals only",
+            "celebrities",
+            "models",
+            "special patients"
+          ],
+          "answer": "X-GLUTA IV 2000 mg is for ANY patient whose healthcare professional determines it's medically appropriate - not reserved for specific professions or 'special' patients. Medical indication, not profession or status, determines appropriate use. Everyone receives treatment based on individual medical needs.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Can I reduce to lower strength after starting 2000 mg?",
+          "variations": [
+            "step down",
+            "reduce dose",
+            "kam kar sakte",
+            "lower strength"
+          ],
+          "answer": "Yes, your healthcare professional can adjust your treatment protocol including reducing strength if clinically appropriate. Dose adjustments in either direction are medical decisions based on your response, tolerance, and ongoing assessment. Communication with your healthcare professional is key.",
+          "category": "Medical Protocol"
+        },
+        {
+          "question": "How many sessions of 2000 mg will I need?",
+          "variations": [
+            "total sessions",
+            "kitni baar lena",
+            "treatment course",
+            "number needed"
+          ],
+          "answer": "The number of sessions varies greatly based on individual goals, clinical response, and healthcare professional's assessment. There's no fixed 'course' of 2000 mg. Your healthcare professional develops a personalized treatment plan and adjusts based on your progress.",
+          "category": "Medical Protocol"
+        },
+        {
+          "question": "Does 2000 mg hurt more than lower doses?",
+          "variations": [
+            "more painful",
+            "pain level",
+            "dard zyada",
+            "injection pain"
+          ],
+          "answer": "Pain from IV insertion is similar regardless of glutathione dose - it's the needle stick that causes brief discomfort. The solution itself is typically painless during infusion. Higher dose means longer infusion time, not more pain. Discuss pain concerns with your healthcare professional.",
+          "category": "Patient Experience"
+        },
+        {
+          "question": "Can I take oral glutathione with 2000 mg IV?",
+          "variations": [
+            "oral and 2000 iv",
+            "tablets with injection",
+            "combination"
+          ],
+          "answer": "Combining oral and IV glutathione, especially at high IV doses like 2000 mg, requires healthcare professional supervision. They will assess total glutathione intake, safety, and clinical appropriateness. Never combine without professional guidance.",
+          "category": "Safety"
+        },
+        {
+          "question": "Is 2000 mg approved/legal?",
+          "variations": [
+            "approved",
+            "legal",
+            "authorized",
+            "legitimate"
+          ],
+          "answer": "X-GLUTA IV 2000 mg is a legitimate pharmaceutical product from Arykem Pharmaceuticals. Regulatory status depends on your region. Your healthcare professional ensures they prescribe products that are legally available and appropriate for use in your location. Purchase only through legitimate medical channels.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Will insurance cover 2000 mg?",
+          "variations": [
+            "insurance",
+            "reimbursement",
+            "coverage",
+            "claim"
+          ],
+          "answer": "Insurance coverage for glutathione IV, especially higher strengths for aesthetic/wellness purposes, is typically limited. Medical indications may have different coverage. Check with your insurance provider and healthcare facility. Cost considerations should be discussed before starting treatment.",
+          "category": "Financial"
+        },
+        {
+          "question": "Can I split 2000 mg into two sessions?",
+          "variations": [
+            "divide dose",
+            "half dose",
+            "split sessions",
+            "1000 twice"
+          ],
+          "answer": "Treatment protocols including dosing schedules are determined by your healthcare professional based on medical rationale, not patient convenience preferences. If you have concerns about the 2000 mg dose, discuss them with your healthcare professional who can explain the protocol or adjust if clinically appropriate.",
+          "category": "Medical Protocol"
+        },
+        {
+          "question": "What monitoring is required for 2000 mg?",
+          "variations": [
+            "monitoring needed",
+            "tests required",
+            "follow up",
+            "checkups"
+          ],
+          "answer": "Your healthcare professional determines appropriate monitoring for 2000 mg therapy, which may include vital signs during infusion, symptom assessment, and potentially laboratory tests depending on your individual situation and treatment duration. Higher doses typically require more careful monitoring.",
+          "category": "Medical Procedure"
+        },
+        {
+          "question": "Can pregnant women receive 2000 mg?",
+          "variations": [
+            "pregnancy 2000",
+            "pregnant highest dose",
+            "garbhavastha me"
+          ],
+          "answer": "Use during pregnancy requires extremely careful risk-benefit assessment by your healthcare professional. Pregnancy is not automatically a contraindication, but higher doses require even more thorough evaluation. Inform your healthcare professional immediately if you are pregnant, planning pregnancy, or breastfeeding.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can I exercise after 2000 mg session?",
+          "variations": [
+            "workout after 2000",
+            "gym",
+            "exercise",
+            "physical activity"
+          ],
+          "answer": "Consult your healthcare professional about physical activity after 2000 mg sessions. Due to higher dose and potentially longer infusion time, they may recommend more rest initially. Follow your healthcare professional's specific recommendations for your situation.",
+          "category": "Lifestyle"
+        },
+        {
+          "question": "Does 2000 mg require hospitalization?",
+          "variations": [
+            "hospital",
+            "admit",
+            "inpatient",
+            "stay"
+          ],
+          "answer": "X-GLUTA IV 2000 mg is typically administered as an outpatient procedure in a clinical setting - you don't stay overnight. However, the administration must be in a proper medical facility with qualified healthcare professionals. You can usually go home after the session and monitoring period.",
+          "category": "Medical Procedure"
+        },
+        {
+          "question": "What happens if I have a reaction to 2000 mg?",
+          "variations": [
+            "allergic reaction",
+            "adverse reaction",
+            "emergency",
+            "bad response"
+          ],
+          "answer": "Healthcare professionals administering 2000 mg are trained to recognize and manage adverse reactions. The clinical setting is equipped to handle reactions appropriately. This is why self-administration is dangerous and professional supervision is mandatory. If you experience any unusual symptoms during or after treatment, inform the healthcare staff immediately.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can I drink alcohol after 2000 mg?",
+          "variations": [
+            "alcohol",
+            "drinking",
+            "sharab",
+            "beer wine"
+          ],
+          "answer": "Consult your healthcare professional about alcohol consumption timing relative to IV therapy. Generally, avoiding alcohol around treatment times is prudent. Your healthcare professional will provide specific guidance based on your overall treatment protocol and health status.",
+          "category": "Lifestyle"
+        },
+        {
+          "question": "Is 2000 mg only for medical conditions or also for cosmetic?",
+          "variations": [
+            "medical vs cosmetic",
+            "disease or beauty",
+            "sick or aesthetic"
+          ],
+          "answer": "X-GLUTA IV 2000 mg can be used for various indications as determined by your healthcare professional - including medical conditions requiring antioxidant support or as part of aesthetic/wellness programs. The distinction is less about the product and more about the clinical context and professional judgment.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Can diabetics receive 2000 mg?",
+          "variations": [
+            "diabetes 2000",
+            "diabetic patient high dose",
+            "sugar patient"
+          ],
+          "answer": "Diabetic patients can potentially receive 2000 mg if their healthcare professional determines it's appropriate with proper monitoring and diabetes management. Diabetes is not an automatic contraindication, but requires thorough medical evaluation. Discuss your diabetes control and management with your healthcare professional.",
+          "category": "Safety"
+        }
+      ],
+      "comparisonTags": [
+        "iv",
+        "injectable",
+        "prescription",
+        "medical-supervision",
+        "high-strength",
+        "intensive",
+        "gluta-family"
+      ],
+      "relatedProducts": [
+        "x-gluta-iv-600",
+        "x-gluta-iv-1200",
+        "x-gluta-tab"
+      ]
+    },
+    {
+      "id": "marinex",
+      "name": "MarineX",
+      "fullName": "PURE MARINE COLLAGEN BUILDER",
+      "aliases": [
+        "marinex",
+        "marine x",
+        "marine collagen",
+        "collagen builder"
+      ],
+      "category": "Marine Nutrition / Beauty & Wellness",
+      "type": "Nutraceutical",
+      "verifiedFacts": {
+        "form": "Powder",
+        "pack": "200 g (20 servings)",
+        "servingSize": "1 scoop = 10 g",
+        "route": "Oral",
+        "prescriptionStatus": "Nutraceutical - Professional guidance recommended"
+      },
+      "composition": [
+        {
+          "ingredient": "EPA & DHA",
+          "amount": "60 mg",
+          "role": "Omega-3 fatty acids supporting skin barrier function, hydration, and healthy cell membranes",
+          "verified": true
+        },
+        {
+          "ingredient": "Marine Collagen Peptides",
+          "amount": "As formulated",
+          "role": "Marine collagen peptides supporting skin structure, elasticity, hair and nail strength, and joint comfort",
+          "verified": true
+        },
+        {
+          "ingredient": "Hyaluronic Acid",
+          "amount": "25 mg",
+          "role": "Hydration and plumpness support; attracts and retains moisture",
+          "verified": true
+        },
+        {
+          "ingredient": "Vitamin C",
+          "amount": "38.40 mg",
+          "role": "Antioxidant support; supports collagen formation",
+          "verified": true
+        },
+        {
+          "ingredient": "Retinol",
+          "amount": "30 mcg",
+          "role": "Supports normal skin health and cellular processes",
+          "verified": true
+        },
+        {
+          "ingredient": "Biotin",
+          "amount": "30 mcg",
+          "role": "Supports healthy hair, skin, and nails",
+          "verified": true
+        }
+      ],
+      "positioning": "Complete marine-based nutrition for comprehensive beauty and wellness support",
+      "benefits": [
+        "Supports skin elasticity and firmness",
+        "Helps maintain hydration and moisture balance",
+        "Contributes to hair and nail strength",
+        "Supports joint comfort and mobility",
+        "Provides comprehensive beauty and wellness support"
+      ],
+      "idealFor": [
+        "Adults concerned about skin elasticity, dullness and loss of firmness",
+        "Individuals with weak, brittle hair and nails",
+        "Those with joint discomfort or reduced mobility",
+        "People seeking comprehensive beauty and wellness support"
+      ],
+      "directions": {
+        "usage": "Take 1 scoop (10 g) powder, add to water, mix thoroughly until evenly dispersed, and consume",
+        "recommended": "1 scoop in the morning on an empty stomach, before breakfast",
+        "schedule": "Consume 5 scoops per week with 2 days rest — approximately 1 month per 200 g pack",
+        "precautions": [
+          "Follow label instructions",
+          "Consult healthcare professional if pregnant, nursing, or taking medications",
+          "Keep out of reach of children"
+        ]
+      },
+      "safety": {
+        "generalSafety": "Generally well-tolerated when used as directed",
+        "contraindications": [
+          "Known allergy to any ingredient, including fish/marine sources",
+          "Consult healthcare professional before use if you have medical conditions"
+        ],
+        "adverseEffects": "Discontinue use and consult healthcare professional if adverse reactions occur",
+        "pregnancyLactation": "Consult healthcare professional before use during pregnancy or lactation"
+      },
+      "importantNotes": [
+        "This is a nutraceutical, not a medicine",
+        "Contains marine-derived ingredients",
+        "Individual results may vary",
+        "Professional guidance recommended for optimal use"
+      ],
+      "faq": [
+        {
+          "question": "What is MarineX?",
+          "variations": [
+            "marinex kya hai",
+            "what is marine x",
+            "tell me about marinex",
+            "marine collagen kya hai"
+          ],
+          "answer": "MarineX is a pure marine collagen builder powder containing marine collagen peptides, EPA & DHA omega-3s, hyaluronic acid, vitamin C, retinol, and biotin. It provides complete nutrition supporting skin elasticity, hydration, hair and nail strength, and joint comfort.",
+          "category": "Product Overview"
+        },
+        {
+          "question": "What are the main ingredients in MarineX?",
+          "variations": [
+            "ingredients",
+            "composition",
+            "kya hai isme",
+            "formula"
+          ],
+          "answer": "MarineX contains: Marine Collagen Peptides, EPA & DHA (60 mg), Hyaluronic Acid (25 mg), Vitamin C (38.40 mg), Retinol (30 mcg), and Biotin (30 mcg) per serving.",
+          "category": "Composition"
+        },
+        {
+          "question": "What is marine collagen?",
+          "variations": [
+            "marine collagen kya hai",
+            "collagen source",
+            "fish collagen"
+          ],
+          "answer": "Marine collagen peptides are derived from fish sources. They are broken down into smaller peptide fragments that provide amino acid building blocks to support the body's natural collagen structure. Marine collagen is known for its bioavailability.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "How is marine collagen different from other collagens?",
+          "variations": [
+            "marine vs bovine",
+            "fish vs cow collagen",
+            "difference in collagen types"
+          ],
+          "answer": "Marine collagen is sourced from fish and is primarily Type I collagen, which is the most abundant type in human skin. It may have good bioavailability. Other collagens come from bovine (cow) or porcine (pig) sources. Marine collagen is suitable for pescatarians.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "Why is vitamin C included?",
+          "variations": [
+            "vitamin c role",
+            "vitamin c kyu",
+            "why vitamin c"
+          ],
+          "answer": "Vitamin C is essential for collagen synthesis. It acts as a cofactor for enzymes that build collagen in the body. Including vitamin C with collagen peptides supports the body's natural collagen production process.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "What does hyaluronic acid do?",
+          "variations": [
+            "hyaluronic acid benefits",
+            "ha role",
+            "hyaluronic acid kya karta hai"
+          ],
+          "answer": "Hyaluronic acid is a naturally occurring substance that attracts and retains moisture in the skin. It helps maintain skin hydration, plumpness, and overall texture. In MarineX, it complements collagen for comprehensive skin support.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "What are EPA and DHA?",
+          "variations": [
+            "epa dha kya hai",
+            "omega 3",
+            "epa dha benefits"
+          ],
+          "answer": "EPA and DHA are omega-3 fatty acids that support skin barrier function, hydration, and healthy cell membranes. They contribute to overall skin health and wellness.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "How should I take MarineX?",
+          "variations": [
+            "usage instructions",
+            "kaise le",
+            "how to use",
+            "directions"
+          ],
+          "answer": "Add 1 scoop (10 g) of MarineX powder into a glass first, then add water. Mix thoroughly until evenly dispersed and consume. Recommended to take in the morning on an empty stomach before breakfast.",
+          "category": "Directions"
+        },
+        {
+          "question": "How many servings are in one pack?",
+          "variations": [
+            "pack size",
+            "servings",
+            "kitne din chalega",
+            "quantity"
+          ],
+          "answer": "One 200 g pack of MarineX contains 20 servings (20 scoops). With the recommended schedule of 5 scoops per week with 2 days rest, one pack lasts approximately 1 month.",
+          "category": "Pack Information"
+        },
+        {
+          "question": "Why take it on empty stomach?",
+          "variations": [
+            "empty stomach kyu",
+            "before food why",
+            "khali pet kyu"
+          ],
+          "answer": "Taking MarineX on an empty stomach before breakfast may support optimal absorption of the collagen peptides and other nutrients. This is a general recommendation, but consult your healthcare professional for personalized advice.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can I mix it with juice or coffee?",
+          "variations": [
+            "mix with juice",
+            "coffee me le sakte",
+            "other drinks"
+          ],
+          "answer": "It's best to mix MarineX with plain water as recommended. Hot beverages may affect the collagen peptides. If you prefer, you can experiment with cold juice, but water is optimal. Avoid hot liquids.",
+          "category": "Directions"
+        },
+        {
+          "question": "Will MarineX help with wrinkles?",
+          "variations": [
+            "wrinkles",
+            "anti aging",
+            "jhurriyan",
+            "fine lines"
+          ],
+          "answer": "MarineX provides collagen peptides and complementary nutrients that support skin structure and elasticity. It may contribute to overall skin health, but individual results vary. It is not a guaranteed wrinkle treatment. Results depend on many factors including age, genetics, sun protection, and lifestyle.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "How long before I see results?",
+          "variations": [
+            "results kab",
+            "kitne din me result",
+            "how long to work",
+            "timeline"
+          ],
+          "answer": "Individual response time varies. Some people notice changes in skin hydration or nail strength within a few weeks, while others may take 2-3 months. Consistent use and patience are important. Results are not guaranteed and depend on individual factors.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Can MarineX help with joint pain?",
+          "variations": [
+            "joint pain",
+            "arthritis",
+            "joints",
+            "jodo ka dard"
+          ],
+          "answer": "MarineX contains collagen peptides that support joint comfort and mobility. It may contribute to joint health as part of comprehensive care. It is not a medicine and does not treat or cure arthritis or joint diseases. Consult your healthcare professional for joint pain.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Will it strengthen my hair and nails?",
+          "variations": [
+            "hair growth",
+            "nail strength",
+            "baal majboot",
+            "nails weak"
+          ],
+          "answer": "MarineX contains biotin and collagen peptides that support healthy hair and nails. Many users report improvements in nail strength and hair quality with consistent use. Individual results vary based on baseline health and nutritional status.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Is MarineX suitable for vegetarians?",
+          "variations": [
+            "vegetarian",
+            "vegan",
+            "shakahari",
+            "fish source"
+          ],
+          "answer": "No, MarineX contains marine (fish-derived) collagen peptides, so it is not suitable for vegetarians or vegans. It may be suitable for pescatarians (those who eat fish).",
+          "category": "Product Classification"
+        },
+        {
+          "question": "Can I take MarineX with X-GLUTA TAB?",
+          "variations": [
+            "combination",
+            "both together",
+            "marinex and xgluta",
+            "dono sath"
+          ],
+          "answer": "MarineX and X-GLUTA TAB address different aspects of wellness and may complement each other. However, please consult your healthcare professional before combining supplements to ensure safety and appropriateness for your individual needs.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "Does MarineX have a fishy taste or smell?",
+          "variations": [
+            "taste",
+            "smell",
+            "fishy",
+            "flavor kaisa hai"
+          ],
+          "answer": "MarineX is formulated to minimize fishy taste and smell. Most users find it pleasant and easy to consume when mixed with water. If you're sensitive to taste, you can try mixing it with cold juice.",
+          "category": "Product Experience"
+        },
+        {
+          "question": "Can pregnant women take MarineX?",
+          "variations": [
+            "pregnancy safe",
+            "pregnant",
+            "garbhavastha",
+            "expecting"
+          ],
+          "answer": "If you are pregnant or nursing, please consult your healthcare professional before using MarineX or any supplement. They can assess safety and appropriateness for your specific situation.",
+          "category": "Safety"
+        },
+        {
+          "question": "Are there any side effects?",
+          "variations": [
+            "side effects",
+            "adverse effects",
+            "problems",
+            "nuksan"
+          ],
+          "answer": "MarineX is generally well-tolerated when used as directed. Some individuals may experience mild digestive changes initially. Allergic reactions are possible if you're allergic to fish or marine sources. Discontinue use and consult healthcare professional if any adverse reactions occur.",
+          "category": "Safety"
+        },
+        {
+          "question": "Who should not take MarineX?",
+          "variations": [
+            "contraindications",
+            "kon nahi le sakta",
+            "not suitable for"
+          ],
+          "answer": "Do not use MarineX if you have a known allergy to fish or marine sources. Consult healthcare professional before use if you have medical conditions, are pregnant/nursing, or taking medications. Not suitable for vegetarians/vegans.",
+          "category": "Safety"
+        },
+        {
+          "question": "How should I store MarineX?",
+          "variations": [
+            "storage",
+            "kaise rakhe",
+            "storage temperature"
+          ],
+          "answer": "Store MarineX in a cool, dry place away from direct sunlight and moisture. Keep the container tightly closed. Keep out of reach of children.",
+          "category": "Storage"
+        },
+        {
+          "question": "Can I take MarineX every day?",
+          "variations": [
+            "daily use",
+            "roz le sakte",
+            "everyday",
+            "continuous"
+          ],
+          "answer": "The recommended schedule is 5 scoops per week with 2 days rest (approximately 1 scoop per day for 5 days, then 2 days off). This pattern allows for rest periods. Consult your healthcare professional for personalized guidance.",
+          "category": "Directions"
+        },
+        {
+          "question": "Where can I buy MarineX?",
+          "variations": [
+            "where to buy",
+            "kaha milega",
+            "purchase",
+            "availability"
+          ],
+          "answer": "MarineX is available through healthcare professionals, pharmacies, and authorized Arykem distributors. Contact Arykem Pharmaceuticals for availability in your area.",
+          "category": "Availability"
+        },
+        {
+          "question": "Can children take MarineX?",
+          "variations": [
+            "kids",
+            "children",
+            "bacho ke liye",
+            "age limit"
+          ],
+          "answer": "MarineX is formulated for adults. Consult a pediatrician or healthcare professional before giving any supplement to children.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can diabetics take MarineX?",
+          "variations": [
+            "diabetes",
+            "sugar patients",
+            "diabetic",
+            "diabetes me safe"
+          ],
+          "answer": "Consult your healthcare professional before using MarineX if you have diabetes or any medical condition. They can assess whether it's appropriate and advise on monitoring.",
+          "category": "Safety"
+        },
+        {
+          "question": "Does MarineX contain any allergens?",
+          "variations": [
+            "allergens",
+            "allergies",
+            "allergy warning"
+          ],
+          "answer": "MarineX contains marine (fish) derived ingredients. If you have fish allergies, do not use this product. Check the label for complete allergen information and consult healthcare professional if you have concerns.",
+          "category": "Safety"
+        },
+        {
+          "question": "What is the difference between MarineX and regular collagen supplements?",
+          "variations": [
+            "marinex vs others",
+            "why marinex",
+            "marinex special"
+          ],
+          "answer": "MarineX combines marine collagen peptides with synergistic ingredients: EPA & DHA omega-3s, hyaluronic acid, vitamin C (for collagen synthesis), retinol, and biotin. This comprehensive formulation addresses multiple pathways for skin, hair, nail, and joint health, rather than collagen alone.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "Can I take MarineX if I have thyroid problems?",
+          "variations": [
+            "thyroid",
+            "thyroid patients",
+            "thyroid disorder"
+          ],
+          "answer": "Consult your healthcare professional before using MarineX if you have thyroid conditions or any medical condition. They can evaluate safety and interactions with your medications.",
+          "category": "Safety"
+        },
+        {
+          "question": "Is MarineX gluten-free?",
+          "variations": [
+            "gluten",
+            "gluten free",
+            "celiac"
+          ],
+          "answer": "Check the product label for specific gluten-free certification. For detailed allergen information, contact Arykem Pharmaceuticals directly or consult your healthcare professional.",
+          "category": "Product Information"
+        }
+      ],
+      "comparisonTags": [
+        "oral",
+        "powder",
+        "collagen",
+        "marine",
+        "beauty-wellness",
+        "nutraceutical"
+      ],
+      "relatedProducts": [
+        "x-gluta-tab",
+        "la3c",
+        "repob"
+      ]
+    },
+    {
+      "id": "la3c",
+      "name": "LA3C",
+      "fullName": "LA3C Face Serum",
+      "aliases": [
+        "la3c",
+        "la 3c",
+        "vitamin c serum",
+        "liposomal vitamin c"
+      ],
+      "category": "Advanced Vitamin C Skincare",
+      "type": "Topical Serum",
+      "verifiedFacts": {
+        "form": "Topical Serum",
+        "pack": "30 ml / 1.01 fl. oz.",
+        "route": "Topical (External use only)",
+        "prescriptionStatus": "Cosmetic/Skincare product"
+      },
+      "composition": [
+        {
+          "ingredient": "15% Liposomal Vitamin C",
+          "amount": "15%",
+          "role": "Antioxidant & brightening support; helps neutralize free radicals; supports collagen synthesis",
+          "verified": true
+        },
+        {
+          "ingredient": "1% Alpha-Tocopherol (Vitamin E)",
+          "amount": "1%",
+          "role": "Works synergistically with Vitamin C; supports antioxidant protection",
+          "verified": true
+        },
+        {
+          "ingredient": "1% Niacinamide",
+          "amount": "1%",
+          "role": "Barrier & tone support; helps reduce appearance of uneven tone",
+          "verified": true
+        },
+        {
+          "ingredient": "1% Hyaluronic Acid",
+          "amount": "1%",
+          "role": "Hydration & elasticity; attracts and retains moisture",
+          "verified": true
+        },
+        {
+          "ingredient": "0.5% Ferulic Acid",
+          "amount": "0.5%",
+          "role": "Stability & antioxidant boost; enhances Vitamin C protection",
+          "verified": true
+        }
+      ],
+      "positioning": "Science + Skincare = Visible Confidence. Advanced liposomal Vitamin C serum with synergistic antioxidants",
+      "benefits": [
+        "Antioxidant support",
+        "Skin radiance and brightening",
+        "Hydration & elasticity",
+        "Skin barrier support",
+        "Helps improve appearance of uneven tone"
+      ],
+      "idealFor": [
+        "Dull, tired and uneven skin",
+        "Hyperpigmentation and dark spots",
+        "Fine lines and early signs of ageing",
+        "Dehydrated and stressed skin",
+        "All skin types including sensitive skin"
+      ],
+      "directions": {
+        "morning": "Apply and massage gently. After 20–30 minutes apply SPF.",
+        "evening": "Before bedtime, after face wash, apply and gently massage.",
+        "precautions": [
+          "For external use only",
+          "Avoid contact with eyes",
+          "Discontinue if irritation occurs",
+          "Always use sunscreen during daytime"
+        ]
+      },
+      "safety": {
+        "generalSafety": "Generally well-tolerated on most skin types when used as directed",
+        "contraindications": [
+          "Known allergy to any ingredient",
+          "Open wounds or broken skin",
+          "Active skin infections"
+        ],
+        "adverseEffects": "Discontinue use if irritation, redness, or allergic reaction occurs",
+        "patchTest": "Recommended to perform patch test before first use"
+      },
+      "importantNotes": [
+        "For external use only",
+        "This is a cosmetic product, not a medicine",
+        "Individual results may vary",
+        "Use sunscreen daily for best results",
+        "Store away from direct sunlight"
+      ],
+      "faq": [
+        {
+          "question": "What is LA3C?",
+          "variations": [
+            "la3c kya hai",
+            "what is la3c",
+            "tell me about la3c serum"
+          ],
+          "answer": "LA3C is an advanced face serum formulated with 15% liposomal Vitamin C, along with Vitamin E, Niacinamide, Hyaluronic Acid, and Ferulic Acid. It's designed to support bright, hydrated, and healthy-looking skin through antioxidant skincare.",
+          "category": "Product Overview"
+        },
+        {
+          "question": "What are the main ingredients?",
+          "variations": [
+            "ingredients",
+            "composition",
+            "formula",
+            "kya hai isme"
+          ],
+          "answer": "LA3C contains: 15% Liposomal Vitamin C, 1% Alpha-Tocopherol (Vitamin E), 1% Niacinamide, 1% Hyaluronic Acid, and 0.5% Ferulic Acid.",
+          "category": "Composition"
+        },
+        {
+          "question": "What is liposomal vitamin C?",
+          "variations": [
+            "liposomal kya hai",
+            "liposomal technology",
+            "why liposomal"
+          ],
+          "answer": "Liposomal vitamin C uses liposomal technology where Vitamin C is encapsulated in protective lipid spheres. This helps improve stability and may support better delivery to the skin compared to regular vitamin C formulations.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "Why is vitamin C good for skin?",
+          "variations": [
+            "vitamin c benefits",
+            "vitamin c role",
+            "vitamin c kyu chahiye"
+          ],
+          "answer": "Vitamin C is a powerful antioxidant that helps neutralize free radicals, supports collagen synthesis (important for skin structure), and may help brighten skin tone. It's one of the most researched skincare ingredients for overall skin health.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "What does ferulic acid do?",
+          "variations": [
+            "ferulic acid role",
+            "ferulic acid kya hai",
+            "why ferulic acid"
+          ],
+          "answer": "Ferulic acid works synergistically with Vitamin C to enhance stability and antioxidant protection. It helps protect the vitamin C from degradation and provides additional antioxidant benefits to the skin.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "What is niacinamide?",
+          "variations": [
+            "niacinamide kya hai",
+            "niacinamide benefits",
+            "niacinamide role"
+          ],
+          "answer": "Niacinamide (Vitamin B3) helps reduce the appearance of uneven skin tone, supports skin barrier function, and improves overall skin texture. It's known for being well-tolerated and suitable for most skin types.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "How should I use LA3C?",
+          "variations": [
+            "usage instructions",
+            "kaise lagaye",
+            "how to apply",
+            "directions"
+          ],
+          "answer": "Morning: Apply and massage gently, wait 20-30 minutes, then apply SPF. Evening: After cleansing, apply and gently massage. Use daily for best results. Always follow with sunscreen during the day.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can I use it in the morning and evening?",
+          "variations": [
+            "twice daily",
+            "morning and night",
+            "subah aur raat",
+            "frequency"
+          ],
+          "answer": "Yes, LA3C can be used both morning and evening. Morning application provides antioxidant protection throughout the day (remember SPF!). Evening application supports overnight skin repair. Both times are beneficial.",
+          "category": "Directions"
+        },
+        {
+          "question": "Why do I need to wait before applying sunscreen?",
+          "variations": [
+            "wait time",
+            "20 minutes kyu",
+            "why wait",
+            "absorption time"
+          ],
+          "answer": "Waiting 20-30 minutes after applying LA3C allows the serum to absorb properly into the skin before applying sunscreen. This ensures maximum effectiveness of both products without interference.",
+          "category": "Directions"
+        },
+        {
+          "question": "Is sunscreen necessary with LA3C?",
+          "variations": [
+            "spf required",
+            "sunscreen zaruri",
+            "need sunscreen",
+            "sun protection"
+          ],
+          "answer": "Yes, daily sunscreen is essential when using vitamin C serums or any brightening skincare. Vitamin C provides antioxidant protection, but sunscreen prevents new damage. Together they provide comprehensive skin protection.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can I use LA3C on sensitive skin?",
+          "variations": [
+            "sensitive skin",
+            "nazuk twacha",
+            "sensitive safe",
+            "irritation"
+          ],
+          "answer": "LA3C is formulated to be suitable for most skin types including sensitive skin. However, individual tolerance varies. Perform a patch test first. If you have very sensitive skin, start with evening use only and gradually increase frequency.",
+          "category": "Safety"
+        },
+        {
+          "question": "What is a patch test and how do I do it?",
+          "variations": [
+            "patch test kaise kare",
+            "test method",
+            "allergy test"
+          ],
+          "answer": "A patch test checks for allergic reactions. Apply a small amount of LA3C on your inner forearm or behind your ear. Wait 24 hours. If no redness, itching, or irritation occurs, it's likely safe to use on your face.",
+          "category": "Safety"
+        },
+        {
+          "question": "Will LA3C help with dark spots?",
+          "variations": [
+            "dark spots",
+            "hyperpigmentation",
+            "daag dhabbe",
+            "pigmentation"
+          ],
+          "answer": "LA3C contains ingredients that may help improve the appearance of uneven tone and dark spots over time with consistent use. Vitamin C and niacinamide are both studied for brightening effects. Results vary individually and take time (weeks to months). Not a guaranteed treatment.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "How long before I see results?",
+          "variations": [
+            "results timeline",
+            "kitne din me",
+            "when results",
+            "how long to work"
+          ],
+          "answer": "Individual response varies. Some users notice improved hydration and radiance within 2-4 weeks. Improvements in uneven tone or fine lines typically take 8-12 weeks of consistent use. Patience and consistency are key. Results are not guaranteed.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Can LA3C remove acne scars?",
+          "variations": [
+            "acne scars",
+            "pimple marks",
+            "scarring",
+            "daag"
+          ],
+          "answer": "LA3C may help improve the appearance of post-acne pigmentation over time with consistent use, but it cannot remove deep acne scars. For significant scarring, consult a dermatologist for appropriate treatment options.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Will it help with wrinkles?",
+          "variations": [
+            "anti aging",
+            "wrinkles",
+            "fine lines",
+            "jhurriyan"
+          ],
+          "answer": "LA3C supports collagen synthesis through vitamin C, and provides antioxidants that may help with early signs of aging. It may improve the appearance of fine lines with consistent use. For deep wrinkles, professional treatments are typically needed.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Can I use LA3C with retinol?",
+          "variations": [
+            "retinol combination",
+            "vitamin c and retinol",
+            "layering"
+          ],
+          "answer": "Vitamin C and retinol can be used together but require careful application. Use vitamin C in the morning and retinol at night, OR use them on alternate nights. Consult your dermatologist or healthcare professional for personalized guidance on combining active ingredients.",
+          "category": "Product Combinations"
+        },
+        {
+          "question": "Can I use LA3C with other serums?",
+          "variations": [
+            "layering serums",
+            "multiple serums",
+            "combination products"
+          ],
+          "answer": "LA3C can generally be incorporated into your existing routine. Apply from thinnest to thickest consistency. If using multiple active ingredients, consult a skincare professional to avoid irritation and ensure proper layering.",
+          "category": "Product Combinations"
+        },
+        {
+          "question": "What should I apply after LA3C?",
+          "variations": [
+            "next step",
+            "routine order",
+            "kya lagaye baad me"
+          ],
+          "answer": "After LA3C absorbs (wait 20-30 minutes), apply your moisturizer if needed, then sunscreen (morning routine). Evening: After LA3C, apply your night cream or moisturizer.",
+          "category": "Directions"
+        },
+        {
+          "question": "Should I use LA3C on damp or dry skin?",
+          "variations": [
+            "wet skin",
+            "dry skin",
+            "geeli twacha",
+            "application surface"
+          ],
+          "answer": "Apply LA3C to clean, dry skin for best results. Pat your face dry after cleansing, then apply the serum. Applying to very wet skin may dilute the product.",
+          "category": "Directions"
+        },
+        {
+          "question": "How much serum should I use per application?",
+          "variations": [
+            "quantity",
+            "kitna lagana",
+            "amount",
+            "dosage"
+          ],
+          "answer": "A few drops (typically 3-4 drops) are sufficient for the entire face and neck. LA3C is concentrated, so a little goes a long way. Avoid using too much product.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can I use LA3C around my eyes?",
+          "variations": [
+            "eye area",
+            "under eyes",
+            "ankho ke paas",
+            "around eyes"
+          ],
+          "answer": "Avoid direct contact with eyes. You can apply carefully around the orbital bone (under-eye area), but be cautious and avoid getting too close to the eye itself. If irritation occurs, discontinue use in that area.",
+          "category": "Directions"
+        },
+        {
+          "question": "Will LA3C make my skin oily?",
+          "variations": [
+            "oily skin",
+            "greasy",
+            "oil production",
+            "sticky"
+          ],
+          "answer": "LA3C is a serum formulation designed to absorb into the skin without leaving a greasy residue. Most users find it lightweight. If you have very oily skin, you may not need additional moisturizer after LA3C.",
+          "category": "Product Experience"
+        },
+        {
+          "question": "Can I use LA3C if I have acne?",
+          "variations": [
+            "acne prone",
+            "pimples",
+            "muhase",
+            "breakouts"
+          ],
+          "answer": "LA3C can generally be used on acne-prone skin. Niacinamide may help with skin barrier function. However, if you have active severe acne, consult a dermatologist before adding new products. Avoid applying to open acne lesions.",
+          "category": "Safety"
+        },
+        {
+          "question": "Does LA3C have a smell?",
+          "variations": [
+            "fragrance",
+            "scent",
+            "smell kaisi hai",
+            "odor"
+          ],
+          "answer": "LA3C may have a mild characteristic scent from the active ingredients. It is not heavily fragranced. The scent should be subtle and should not be overpowering.",
+          "category": "Product Experience"
+        },
+        {
+          "question": "How should I store LA3C?",
+          "variations": [
+            "storage",
+            "kaise rakhe",
+            "temperature",
+            "preservation"
+          ],
+          "answer": "Store LA3C in a cool, dry place away from direct sunlight and heat. Keep the bottle tightly closed when not in use. Vitamin C products can degrade with light and air exposure, so proper storage is important.",
+          "category": "Storage"
+        },
+        {
+          "question": "How long does one bottle last?",
+          "variations": [
+            "duration",
+            "kitne din chalega",
+            "30ml lasts",
+            "usage period"
+          ],
+          "answer": "One 30 ml bottle typically lasts approximately 1-2 months with twice-daily use (morning and evening), depending on the amount used per application. Conservative use with proper application extends duration.",
+          "category": "Product Information"
+        },
+        {
+          "question": "What color should LA3C be?",
+          "variations": [
+            "serum color",
+            "appearance",
+            "rang kaisa",
+            "oxidation"
+          ],
+          "answer": "LA3C should be clear to slightly yellowish. If the serum turns dark brown or orange, it may have oxidized and should not be used. Check expiry date and storage conditions.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Can pregnant women use LA3C?",
+          "variations": [
+            "pregnancy safe",
+            "pregnant",
+            "garbhavastha",
+            "expecting"
+          ],
+          "answer": "Topical vitamin C is generally considered safe during pregnancy, but consult your obstetrician or healthcare professional before using any skincare products during pregnancy or nursing.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can teenagers use LA3C?",
+          "variations": [
+            "teens",
+            "young skin",
+            "age limit",
+            "15 years"
+          ],
+          "answer": "LA3C can generally be used by teenagers with parental guidance, especially for concerns like uneven tone or dull skin. However, basic skincare (cleanse, moisturize, SPF) is often sufficient for young skin. Consult a dermatologist for teenagers with specific concerns.",
+          "category": "Safety"
+        },
+        {
+          "question": "Is LA3C vegan and cruelty-free?",
+          "variations": [
+            "vegan",
+            "cruelty free",
+            "animal testing",
+            "ethical"
+          ],
+          "answer": "For specific information about vegan/cruelty-free status, please contact Arykem Pharmaceuticals directly for confirmation of ingredients and manufacturing practices.",
+          "category": "Product Information"
+        }
+      ],
+      "comparisonTags": [
+        "topical",
+        "serum",
+        "vitamin-c",
+        "antioxidant",
+        "skincare",
+        "brightening"
+      ],
+      "relatedProducts": [
+        "x-gluta-tab",
+        "marinex"
+      ]
+    },
+    {
+      "id": "repob",
+      "name": "REPOB",
+      "fullName": "REPOB Pre & Probiotic Capsules",
+      "aliases": [
+        "repob",
+        "repo b",
+        "probiotic",
+        "prebiotic"
+      ],
+      "category": "Pre & Probiotic Capsules",
+      "type": "Nutraceutical",
+      "verifiedFacts": {
+        "form": "Capsules",
+        "pack": "1 × 10 × 10 capsules (100 capsules total)",
+        "route": "Oral",
+        "prescriptionStatus": "Nutraceutical - Professional guidance recommended"
+      },
+      "composition": [
+        {
+          "ingredient": "Lactobacillus acidophilus",
+          "amount": "0.48 billion CFU",
+          "role": "Probiotic strain supporting intestinal microbiome",
+          "verified": true
+        },
+        {
+          "ingredient": "Lactobacillus rhamnosus",
+          "amount": "0.48 billion CFU",
+          "role": "Probiotic strain with digestive support properties",
+          "verified": true
+        },
+        {
+          "ingredient": "Bifidobacterium longum",
+          "amount": "0.48 billion CFU",
+          "role": "Probiotic strain supporting gut microbiome balance",
+          "verified": true
+        },
+        {
+          "ingredient": "Saccharomyces boulardii",
+          "amount": "0.10 billion CFU",
+          "role": "Beneficial yeast supporting digestive health",
+          "verified": true
+        },
+        {
+          "ingredient": "Fructooligosaccharides (FOS)",
+          "amount": "100 mg",
+          "role": "Prebiotic fiber supporting probiotic growth",
+          "verified": true
+        }
+      ],
+      "positioning": "Multi-strain pre & probiotic formulation supporting digestive microbiome balance and overall wellness",
+      "benefits": [
+        "Supports digestive microbiome balance",
+        "May contribute to overall wellness",
+        "Combines 4 probiotic strains with prebiotic FOS",
+        "Supports healthy digestive function"
+      ],
+      "idealFor": [
+        "Individuals seeking digestive health support",
+        "Those with microbiome imbalance",
+        "People taking antibiotics (under medical guidance)",
+        "Adults looking for probiotic supplementation"
+      ],
+      "directions": {
+        "usage": "Take as directed by healthcare professional",
+        "precautions": [
+          "Follow label instructions",
+          "Consult healthcare professional if pregnant, nursing, or taking medications",
+          "Keep refrigerated if specified on label"
+        ]
+      },
+      "safety": {
+        "generalSafety": "Generally well-tolerated when used as directed",
+        "contraindications": [
+          "Known allergy to any ingredient",
+          "Severely compromised immune system (consult healthcare professional)",
+          "Consult healthcare professional before use if you have medical conditions"
+        ],
+        "adverseEffects": "Some individuals may experience mild digestive changes initially. Discontinue use and consult healthcare professional if adverse reactions occur",
+        "pregnancyLactation": "Consult healthcare professional before use during pregnancy or lactation"
+      },
+      "importantNotes": [
+        "This is a nutraceutical, not a medicine",
+        "Individual results may vary",
+        "Professional guidance recommended for optimal use",
+        "Part of holistic wellness approach"
+      ],
+      "faq": [
+        {
+          "question": "What is REPOB?",
+          "variations": [
+            "repob kya hai",
+            "what is repob",
+            "tell me about repob"
+          ],
+          "answer": "REPOB is a multi-strain pre & probiotic capsule containing Lactobacillus acidophilus, Lactobacillus rhamnosus, Bifidobacterium longum, Saccharomyces boulardii (totaling 1.54 billion CFU), and prebiotic FOS (100 mg) to support digestive microbiome balance.",
+          "category": "Product Overview"
+        },
+        {
+          "question": "What are probiotics?",
+          "variations": [
+            "probiotics kya hai",
+            "what are probiotics",
+            "probiotic meaning"
+          ],
+          "answer": "Probiotics are live beneficial bacteria and yeasts that support digestive health and microbiome balance. They are similar to the good bacteria naturally found in your gut and help maintain a healthy digestive system.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "What are prebiotics?",
+          "variations": [
+            "prebiotics kya hai",
+            "what are prebiotics",
+            "fos meaning"
+          ],
+          "answer": "Prebiotics are types of fiber that feed the beneficial bacteria (probiotics) in your gut. FOS (Fructooligosaccharides) in REPOB acts as food for probiotics, helping them thrive and multiply in your digestive system.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "What is CFU?",
+          "variations": [
+            "cfu meaning",
+            "billion cfu",
+            "colony forming units"
+          ],
+          "answer": "CFU stands for Colony Forming Units, which measures the number of viable (living) bacteria in a probiotic. REPOB contains 1.54 billion CFU total from four different probiotic strains.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "Why multiple strains instead of just one?",
+          "variations": [
+            "multi strain benefits",
+            "why 4 strains",
+            "different strains kyu"
+          ],
+          "answer": "Different probiotic strains have different benefits and work in different parts of the digestive system. A multi-strain formula like REPOB provides more comprehensive support for overall microbiome balance compared to single-strain products.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "How should I take REPOB?",
+          "variations": [
+            "usage instructions",
+            "kaise le",
+            "directions",
+            "how to take"
+          ],
+          "answer": "Take REPOB as directed by your healthcare professional. Probiotics are typically taken once daily, often with food or as specified on the label. Follow the specific directions provided with your product.",
+          "category": "Directions"
+        },
+        {
+          "question": "Should I take REPOB with food or empty stomach?",
+          "variations": [
+            "with food",
+            "empty stomach",
+            "khane ke saath",
+            "timing"
+          ],
+          "answer": "This depends on the specific product formulation. Some probiotics are better with food, others on empty stomach. Check your product label or consult your healthcare professional for the best timing for REPOB.",
+          "category": "Directions"
+        },
+        {
+          "question": "Should I refrigerate REPOB?",
+          "variations": [
+            "storage",
+            "refrigeration",
+            "fridge me rakhna",
+            "temperature"
+          ],
+          "answer": "Check the product label for specific storage instructions. Some probiotic formulations require refrigeration while others are shelf-stable. Follow the storage guidelines provided to maintain probiotic viability.",
+          "category": "Storage"
+        },
+        {
+          "question": "Can REPOB help with bloating and gas?",
+          "variations": [
+            "bloating",
+            "gas",
+            "pet fulna",
+            "digestive issues"
+          ],
+          "answer": "REPOB supports digestive microbiome balance, which may help with occasional bloating and gas in some individuals. However, individual results vary. If you have persistent digestive symptoms, consult a healthcare professional for proper evaluation.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Will REPOB help with constipation?",
+          "variations": [
+            "constipation",
+            "kabz",
+            "bowel movement",
+            "digestion"
+          ],
+          "answer": "Probiotics support overall digestive function and may contribute to regularity in some individuals. However, REPOB is not a laxative or guaranteed constipation treatment. For chronic constipation, consult your healthcare professional.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Can I take REPOB with antibiotics?",
+          "variations": [
+            "antibiotics",
+            "medicine ke saath",
+            "drug interaction"
+          ],
+          "answer": "Antibiotics can kill both harmful and beneficial bacteria. Consult your healthcare professional about taking probiotics with antibiotics. They may recommend specific timing (e.g., taking them a few hours apart) to maximize benefit while on antibiotic therapy.",
+          "category": "Safety"
+        },
+        {
+          "question": "How long should I take REPOB?",
+          "variations": [
+            "duration",
+            "kitne din",
+            "how long",
+            "treatment length"
+          ],
+          "answer": "Duration depends on your individual needs and goals. Some people take probiotics continuously for ongoing support, while others use them for specific periods. Consult your healthcare professional for personalized guidance on duration.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can probiotics help with skin?",
+          "variations": [
+            "skin benefits",
+            "gut skin axis",
+            "skin health"
+          ],
+          "answer": "The gut-skin axis (relationship between digestive health and skin condition) is an area of ongoing research. Some studies suggest gut health may influence skin. REPOB supports microbiome balance, which is part of overall wellness. Individual responses vary.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Can I take REPOB with other supplements?",
+          "variations": [
+            "combination",
+            "other vitamins",
+            "supplements together"
+          ],
+          "answer": "REPOB can generally be taken with other supplements, but consult your healthcare professional to ensure no interactions and appropriate timing for your specific combination.",
+          "category": "Safety"
+        },
+        {
+          "question": "Are there any side effects?",
+          "variations": [
+            "side effects",
+            "adverse effects",
+            "problems",
+            "nuksan"
+          ],
+          "answer": "Probiotics are generally well-tolerated. Some people may experience mild digestive changes (gas, bloating) initially as the gut adjusts, which typically resolves within a few days. Discontinue use if adverse reactions occur and consult healthcare professional.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can pregnant women take REPOB?",
+          "variations": [
+            "pregnancy",
+            "pregnant",
+            "garbhavastha",
+            "expecting"
+          ],
+          "answer": "Consult your healthcare professional before taking probiotics during pregnancy or nursing. They can assess safety and appropriateness for your specific situation.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can children take REPOB?",
+          "variations": [
+            "kids",
+            "children",
+            "bacho ke liye",
+            "age"
+          ],
+          "answer": "REPOB is formulated for adults. For children, consult a pediatrician who can recommend age-appropriate probiotic products and dosages.",
+          "category": "Safety"
+        },
+        {
+          "question": "Do I need probiotics if I eat yogurt?",
+          "variations": [
+            "yogurt vs probiotics",
+            "dahi",
+            "fermented foods"
+          ],
+          "answer": "Fermented foods like yogurt contain beneficial bacteria, but probiotic supplements provide specific strains in measured amounts. REPOB offers targeted strains with prebiotic support. Both can be part of digestive health, but supplements provide consistency and specific benefits.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "How is REPOB different from other probiotics?",
+          "variations": [
+            "repob vs others",
+            "why repob",
+            "unique features"
+          ],
+          "answer": "REPOB combines 4 different probiotic strains (including the beneficial yeast Saccharomyces boulardii) with prebiotic FOS in one formulation. This multi-strain approach with prebiotic support provides comprehensive microbiome balance.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "Can I take REPOB if I have IBS?",
+          "variations": [
+            "ibs",
+            "irritable bowel",
+            "digestive disorder"
+          ],
+          "answer": "Some research suggests certain probiotics may help with IBS symptoms, but this varies by individual and strain. If you have IBS or digestive disorders, consult your healthcare professional before starting probiotics. They can guide appropriate use.",
+          "category": "Safety"
+        }
+      ],
+      "comparisonTags": [
+        "oral",
+        "capsules",
+        "probiotics",
+        "digestive-health",
+        "microbiome",
+        "nutraceutical"
+      ],
+      "relatedProducts": [
+        "ktoseven",
+        "marinex"
+      ]
+    },
+    {
+      "id": "ktoseven",
+      "name": "KTOSEVEN",
+      "fullName": "KTOSEVEN Bone Health Tablets",
+      "aliases": [
+        "ktoseven",
+        "kto seven",
+        "k7",
+        "bone health"
+      ],
+      "category": "Clinical Wellness Range / Bone Health",
+      "type": "Nutraceutical",
+      "verifiedFacts": {
+        "form": "Tablets",
+        "pack": "1 × 10 × 10 tablets (100 tablets total)",
+        "route": "Oral",
+        "prescriptionStatus": "Nutraceutical - Professional guidance recommended"
+      },
+      "composition": [
+        {
+          "ingredient": "Calcium Carbonate",
+          "amount": "As formulated",
+          "role": "Primary calcium source for bone health",
+          "verified": true
+        },
+        {
+          "ingredient": "Calcitriol (Vitamin D3)",
+          "amount": "As formulated",
+          "role": "Supports calcium absorption and bone metabolism",
+          "verified": true
+        },
+        {
+          "ingredient": "Zinc",
+          "amount": "As formulated",
+          "role": "Essential mineral supporting multiple physiological functions",
+          "verified": true
+        },
+        {
+          "ingredient": "Vitamin K2-7",
+          "amount": "As formulated",
+          "role": "Supports normal calcium metabolism and bone health",
+          "verified": true
+        }
+      ],
+      "positioning": "Comprehensive bone health formulation with calcium, vitamin D3, vitamin K2-7, and zinc",
+      "benefits": [
+        "Supports normal bone health",
+        "Helps maintain calcium metabolism",
+        "Contributes to overall skeletal health",
+        "Comprehensive mineral and vitamin support"
+      ],
+      "idealFor": [
+        "Individuals seeking bone health support",
+        "Adults concerned about calcium intake",
+        "Those with low vitamin D status",
+        "People looking for comprehensive bone wellness"
+      ],
+      "directions": {
+        "usage": "Take as directed by healthcare professional",
+        "precautions": [
+          "Follow label instructions",
+          "Consult healthcare professional if pregnant, nursing, or taking medications",
+          "Do not exceed recommended dose"
+        ]
+      },
+      "safety": {
+        "generalSafety": "Generally well-tolerated when used as directed",
+        "contraindications": [
+          "Known allergy to any ingredient",
+          "Hypercalcemia (high blood calcium)",
+          "Kidney stones or kidney disease (consult healthcare professional)",
+          "Consult healthcare professional before use if you have medical conditions"
+        ],
+        "adverseEffects": "Discontinue use and consult healthcare professional if adverse reactions occur",
+        "pregnancyLactation": "Consult healthcare professional before use during pregnancy or lactation"
+      },
+      "importantNotes": [
+        "This is a nutraceutical, not a medicine",
+        "Individual results may vary",
+        "Professional guidance recommended for optimal use",
+        "Part of comprehensive bone health approach including diet and exercise"
+      ],
+      "faq": [
+        {
+          "question": "What is KTOSEVEN?",
+          "variations": [
+            "ktoseven kya hai",
+            "what is ktoseven",
+            "tell me about ktoseven"
+          ],
+          "answer": "KTOSEVEN is a bone health formulation combining Calcium Carbonate, Vitamin D3 (Calcitriol), Vitamin K2-7, and Zinc to support normal bone health and calcium metabolism.",
+          "category": "Product Overview"
+        },
+        {
+          "question": "Why is calcium important?",
+          "variations": [
+            "calcium benefits",
+            "calcium role",
+            "calcium kyu zaruri"
+          ],
+          "answer": "Calcium is the primary mineral in bones and teeth. It's essential for bone structure, strength, and density. Adequate calcium intake throughout life supports bone health and may reduce risk of bone-related issues later.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "Why is vitamin D included?",
+          "variations": [
+            "vitamin d role",
+            "vitamin d kyu",
+            "d3 benefits"
+          ],
+          "answer": "Vitamin D (specifically D3/Calcitriol) is essential for calcium absorption from the digestive system. Without adequate vitamin D, your body cannot absorb calcium effectively, even if you consume enough. They work together for bone health.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "What is vitamin K2-7?",
+          "variations": [
+            "k2-7 kya hai",
+            "vitamin k2",
+            "mk-7"
+          ],
+          "answer": "Vitamin K2-7 (MK-7 form) helps direct calcium to bones where it's needed and away from soft tissues where it shouldn't accumulate. It plays a role in calcium metabolism and bone health, working alongside vitamin D and calcium.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "Why is zinc in a bone health formula?",
+          "variations": [
+            "zinc role",
+            "zinc kyu hai",
+            "zinc benefits"
+          ],
+          "answer": "Zinc is an essential trace mineral involved in bone formation and metabolism. It plays a role in various enzymatic processes throughout the body, including those related to bone health.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "How should I take KTOSEVEN?",
+          "variations": [
+            "usage",
+            "kaise le",
+            "directions",
+            "dosage"
+          ],
+          "answer": "Take KTOSEVEN as directed by your healthcare professional or as specified on the label. Follow the recommended dosage and timing instructions provided.",
+          "category": "Directions"
+        },
+        {
+          "question": "Should I take it with food?",
+          "variations": [
+            "with food",
+            "empty stomach",
+            "khane ke saath",
+            "meal timing"
+          ],
+          "answer": "Calcium supplements are often better absorbed when taken with food. Consult your healthcare professional or check the product label for specific instructions for KTOSEVEN.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can KTOSEVEN prevent osteoporosis?",
+          "variations": [
+            "osteoporosis",
+            "haddiyo ki kamzori",
+            "bone loss",
+            "prevention"
+          ],
+          "answer": "KTOSEVEN supports bone health through calcium and vitamin D supplementation, but it is not a medicine and does not diagnose, treat, cure, or prevent osteoporosis. Bone health requires comprehensive approach including nutrition, exercise, and medical care. Consult healthcare professional for osteoporosis concerns.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Who should take KTOSEVEN?",
+          "variations": [
+            "who needs",
+            "kisko lena chahiye",
+            "target audience"
+          ],
+          "answer": "KTOSEVEN may benefit adults seeking bone health support, those with low dietary calcium/vitamin D intake, postmenopausal women, older adults, or anyone advised by their healthcare professional to supplement calcium and vitamin D.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Can young people take KTOSEVEN?",
+          "variations": [
+            "young adults",
+            "age limit",
+            "teenagers"
+          ],
+          "answer": "Bone health support is beneficial at all ages, but individual needs vary. Young adults building peak bone mass may benefit under professional guidance. Consult healthcare professional for age-appropriate bone health strategies.",
+          "category": "Safety"
+        },
+        {
+          "question": "How long should I take KTOSEVEN?",
+          "variations": [
+            "duration",
+            "kitne din",
+            "how long",
+            "continuous use"
+          ],
+          "answer": "Duration depends on your individual needs, dietary intake, vitamin D status, and healthcare professional's guidance. Some people take bone health supplements long-term as part of ongoing wellness, while others use them for specific periods.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can I get enough calcium from food?",
+          "variations": [
+            "dietary calcium",
+            "food sources",
+            "khane me calcium"
+          ],
+          "answer": "Ideally, calcium should come from diet (dairy, leafy greens, fortified foods). However, many people don't meet daily calcium requirements through diet alone. KTOSEVEN can supplement dietary intake when needed. Consult healthcare professional to assess your needs.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Can I take KTOSEVEN with other supplements?",
+          "variations": [
+            "combination",
+            "other vitamins",
+            "multiple supplements"
+          ],
+          "answer": "Consult your healthcare professional before combining KTOSEVEN with other supplements, especially those containing calcium, vitamin D, or minerals, to avoid excessive intake and ensure proper absorption.",
+          "category": "Safety"
+        },
+        {
+          "question": "Are there any side effects?",
+          "variations": [
+            "side effects",
+            "adverse effects",
+            "problems"
+          ],
+          "answer": "Calcium supplements may cause constipation or digestive discomfort in some people. Take with food and adequate water. If you experience kidney stones, hypercalcemia symptoms, or adverse reactions, discontinue use and consult healthcare professional.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can I take too much calcium?",
+          "variations": [
+            "overdose",
+            "excessive calcium",
+            "zyada calcium",
+            "upper limit"
+          ],
+          "answer": "Yes, excessive calcium intake can be harmful (hypercalcemia, kidney stones, interference with other mineral absorption). Do not exceed recommended doses. Consult healthcare professional about your total calcium intake from all sources (diet + supplements).",
+          "category": "Safety"
+        },
+        {
+          "question": "Can pregnant women take KTOSEVEN?",
+          "variations": [
+            "pregnancy",
+            "pregnant",
+            "garbhavastha"
+          ],
+          "answer": "Calcium and vitamin D are important during pregnancy, but pregnant women have specific needs. Consult your obstetrician or healthcare professional before taking KTOSEVEN or any supplement during pregnancy or nursing.",
+          "category": "Safety"
+        },
+        {
+          "question": "Can people with kidney disease take KTOSEVEN?",
+          "variations": [
+            "kidney problems",
+            "renal disease",
+            "kidney stones"
+          ],
+          "answer": "If you have kidney disease, kidney stones, or kidney problems, consult your healthcare professional before taking calcium supplements. Calcium metabolism is affected by kidney function, requiring medical supervision.",
+          "category": "Safety"
+        },
+        {
+          "question": "Should I take calcium and iron together?",
+          "variations": [
+            "iron interference",
+            "calcium iron",
+            "mineral interactions"
+          ],
+          "answer": "Calcium can interfere with iron absorption. If you take iron supplements, take them at different times than calcium (several hours apart). Consult healthcare professional for optimal timing.",
+          "category": "Product Combinations"
+        },
+        {
+          "question": "Do I need sunlight if I take vitamin D supplements?",
+          "variations": [
+            "sunlight",
+            "dhoop",
+            "sun exposure",
+            "vitamin d sources"
+          ],
+          "answer": "Sunlight helps your body produce vitamin D naturally. While KTOSEVEN provides vitamin D, sensible sun exposure (with sun protection) and dietary sources contribute to overall vitamin D status. Consult healthcare professional about your vitamin D needs.",
+          "category": "Product Information"
+        },
+        {
+          "question": "Can KTOSEVEN help with joint pain?",
+          "variations": [
+            "joint pain",
+            "arthritis",
+            "jodo ka dard"
+          ],
+          "answer": "KTOSEVEN is formulated for bone health, not joint pain treatment. While bone and joint health are related, KTOSEVEN is not a pain reliever or arthritis medicine. Consult healthcare professional for joint pain concerns.",
+          "category": "Benefits & Limitations"
+        }
+      ],
+      "comparisonTags": [
+        "oral",
+        "tablets",
+        "bone-health",
+        "calcium",
+        "vitamin-d",
+        "nutraceutical"
+      ],
+      "relatedProducts": [
+        "repob",
+        "marinex"
+      ]
+    }
+  ],
+  "generalScience": [
+    {
+      "topic": "What is Oxidative Stress?",
+      "simpleExplanation": "Oxidative stress occurs when there are too many harmful molecules called 'free radicals' in the body and not enough antioxidants to neutralize them. This imbalance can damage cells.",
+      "professionalExplanation": "Oxidative stress represents an imbalance between the production of reactive oxygen species (ROS) and the biological system's ability to neutralize these reactive intermediates through antioxidant defences. ROS include superoxide anion, hydrogen peroxide, and hydroxyl radical. While ROS play physiological signaling roles, excessive accumulation can damage lipids, proteins, and nucleic acids, potentially contributing to various pathological processes.",
+      "sources": [
+        {
+          "title": "Free Radicals and Antioxidants in Normal Physiological Functions",
+          "organization": "NIH",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3614697/",
+          "type": "Scientific review"
+        }
+      ],
+      "publicDisplay": true
+    },
+    {
+      "topic": "What are Antioxidants?",
+      "simpleExplanation": "Antioxidants are substances that help protect the body's cells from damage caused by harmful molecules. They work like shields to keep cells healthy.",
+      "professionalExplanation": "Antioxidants are molecules capable of inhibiting the oxidation of other molecules by donating electrons to free radicals, thereby neutralizing their reactivity. The body's antioxidant system includes enzymatic defences (superoxide dismutase, catalase, glutathione peroxidase) and non-enzymatic defences (glutathione, vitamin C, vitamin E, carotenoids). These systems work synergistically to maintain cellular redox homeostasis.",
+      "sources": [
+        {
+          "title": "Antioxidants: In Depth",
+          "organization": "NIH - National Center for Complementary and Integrative Health",
+          "url": "https://www.nccih.nih.gov/health/antioxidants-in-depth",
+          "type": "Health information"
+        }
+      ],
+      "publicDisplay": true
+    },
+    {
+      "topic": "What is Collagen?",
+      "simpleExplanation": "Collagen is the most abundant protein in the body, providing structure to skin, bones, tendons, and ligaments. It's like the 'glue' that holds the body together.",
+      "professionalExplanation": "Collagen is a family of structural proteins representing approximately 30% of total body protein. Type I collagen predominates in skin, bone, and connective tissues. Collagen biosynthesis requires vitamin C as a cofactor for prolyl and lysyl hydroxylase enzymes. With aging, collagen production naturally declines, contributing to skin changes and structural alterations.",
+      "sources": [
+        {
+          "title": "Collagen: Structure and Function",
+          "organization": "Scientific Literature",
+          "type": "Scientific review"
+        }
+      ],
+      "publicDisplay": true
+    }
+  ],
+  "safetyRules": [
+    {
+      "rule": "Never provide personalized medical advice",
+      "explanation": "Always direct users to consult qualified healthcare professionals for individual medical guidance"
+    },
+    {
+      "rule": "Never provide IV administration instructions",
+      "explanation": "IV products require professional medical supervision. Never provide dilution, infusion rate, or dosing schedules"
+    },
+    {
+      "rule": "Never diagnose conditions",
+      "explanation": "Symptoms or health concerns should be evaluated by qualified healthcare professionals"
+    },
+    {
+      "rule": "Never guarantee medical outcomes",
+      "explanation": "Use cautious language like 'may support', 'contributes to', 'associated with' rather than guaranteed results"
+    },
+    {
+      "rule": "Emergency situations require immediate medical care",
+      "explanation": "For severe reactions, overdose, or emergencies, direct to emergency services immediately"
+    }
+  ],
+  "fallbackAnswers": {
+    "unknownQuestion": "I don't have a verified answer for that specific question in the current Arykem product knowledge base. Please contact the Arykem team or consult a qualified healthcare professional for confirmation.",
+    "medicalAdvice": "I provide general product and scientific information only. For personalized medical advice, diagnosis, or treatment recommendations, please consult a qualified healthcare professional.",
+    "emergency": "This chat provides general product information only and is not emergency medical care. Please contact a qualified healthcare professional or local emergency service immediately.",
+    "removedProduct": "That product is not part of the current Arykem portfolio. Our current range includes: X-GLUTA TAB, X-GLUTA IV (600/1200/2000 mg), MarineX, LA3C, REPOB, and KTOSEVEN.",
+    "unverifiedDetail": "This specific detail is not available in the verified Arykem product information. Please confirm with the Arykem team or check the product label."
+  }
+}

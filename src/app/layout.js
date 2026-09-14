@@ -2,6 +2,7 @@ import { Inter, Cormorant } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import ProductChatSupport from "@/components/ui/ProductChatSupport";
 import { siteConfig, getCanonicalUrl, getAbsoluteUrl } from "@/lib/config";
 
 const inter = Inter({
@@ -135,6 +136,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <ProductChatSupport />
       </body>
     </html>
   );

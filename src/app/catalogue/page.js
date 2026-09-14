@@ -1,231 +1,198 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FileText, Layers, Microscope, Users } from 'lucide-react';
+import { ArrowRight, ChevronRight, Download } from 'lucide-react';
 import Reveal from '@/components/ui/Reveal';
 import Button from '@/components/ui/Button';
-import SectionHeading from '@/components/ui/SectionHeading';
-import { products } from '@/data/products';
-import { siteConfig, getCanonicalUrl } from '@/lib/config';
+import { products, getProductBySlug } from '@/data/products';
 
-export const metadata = {
-  title: 'Product Catalogue',
-  description: 'Comprehensive professional portfolio of Arykem dermatology, aesthetic nutrition, and skin health formulations. Detailed product information for healthcare professionals.',
-  openGraph: {
-    title: 'Product Catalogue | Arykem Pharmaceuticals',
-    description: 'Comprehensive portfolio of dermatology, aesthetic nutrition, and skin health formulations.',
-    url: getCanonicalUrl('/catalogue'),
-  },
-  twitter: {
-    title: 'Product Catalogue | Arykem Pharmaceuticals',
-    description: 'Comprehensive professional portfolio for healthcare practitioners.',
-  },
-  alternates: {
-    canonical: getCanonicalUrl('/catalogue'),
-  },
-};
 
-const catalogueCoverage = [
+// TODO: CONFIRM MARINEX RETINOL QUANTITY WITH ARYKEM BEFORE PUBLICATION
+// Source conflict: Detailed visual shows 30 mcg, Product list visual shows 60 mcg
+// Current value in data: Check products.js MARINEX_RETINOL_MCG constant
+const MARINEX_RETINOL_NOTE = "Retinol quantity pending final confirmation";
+
+// Catalogue organization
+const catalogueCategories = [
   {
-    icon: Layers,
+    id: 'redefine-beauty',
     number: '01',
-    title: 'Product Portfolio',
-    description: 'Complete range spanning dermatology, aesthetic nutrition, IV nutrition, and skin health.',
+    title: 'REDEFINE BEAUTY',
+    subtitle: 'Marine Nutrition & Antioxidant Support',
+    products: ['marinex', 'x-gluta-tab']
   },
   {
-    icon: Microscope,
+    id: 'advanced-skincare',
     number: '02',
-    title: 'Formulation & Composition',
-    description: 'Detailed ingredient information and scientific formulation rationale.',
+    title: 'ADVANCED SKINCARE',
+    subtitle: 'Topical Vitamin C & Antioxidant System',
+    products: ['la3c']
   },
   {
-    icon: FileText,
+    id: 'glutathione-iv',
     number: '03',
-    title: 'Scientific Information',
-    description: 'Educational content on biological concepts and application context.',
+    title: 'GLUTATHIONE IV THERAPY',
+    subtitle: 'Professional Antioxidant Support',
+    products: ['x-gluta-iv-600', 'x-gluta-iv-1200', 'x-gluta-iv-2000']
   },
   {
-    icon: Users,
+    id: 'clinical-wellness',
     number: '04',
-    title: 'Professional Resource',
-    description: 'Information structured for healthcare professionals and clinical settings.',
-  },
+    title: 'CLINICAL WELLNESS',
+    subtitle: 'Probiotic & Bone Health Support',
+    products: ['repob', 'ktoseven']
+  }
 ];
 
-// Featured products for catalogue
-const featuredProducts = products.filter(p => 
-  ['x-gluta-tab', 'x-gluta-iv-600', 'x-gluta-iv-1200', 'x-gluta-iv-2000', 'collagen'].includes(p.id)
-);
-
-// Group remaining products by category
-const aestheticNutrition = products.filter(p => p.category === 'Aesthetic Nutrition' && !featuredProducts.find(f => f.id === p.id));
-const dermatology = products.filter(p => p.category === 'Dermatology');
-const skinHealth = products.filter(p => p.category === 'Skin Health' && !featuredProducts.find(f => f.id === p.id));
-
 export default function CataloguePage() {
+  const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
+
+  const generatePDF = async () => {
+    setIsGeneratingPDF(true);
+    
+    try {
+      const { generatePremiumCataloguePDF } = await import('@/utils/generatePremiumCataloguePDF');
+      await generatePremiumCataloguePDF(products);
+    } catch (error) {
+      console.error('Error generating PDF:', error);
+      alert('Error generating PDF. Please try again.');
+    } finally {
+      setIsGeneratingPDF(false);
+    }
+  };
+
+  const scrollToSection = (sectionId) => {
+    const element = document.querySelector(`[data-catalogue-section="${sectionId}"]`);
+    if (element) {
+      const offset = 100;
+      const elementPosition = element.offsetTop - offset;
+      window.scrollTo({ top: elementPosition, behavior: 'smooth' });
+    }
+  };
+
   return (
-    <div className="min-h-screen">
-      {/* Hero */}
-      <section className="section pt-32 md:pt-40 pb-20 bg-gradient-to-b from-[var(--warm-white)] to-[var(--ivory)]">
+    <div className="min-h-screen bg-[var(--ivory)]">
+
+      {/* SECTION 01 — COVER */}
+      <section 
+        data-catalogue-section="cover"
+        className="section pt-32 md:pt-40 pb-20 bg-gradient-to-b from-[var(--warm-white)] to-[var(--ivory)]"
+      >
         <div className="container">
-          <div className="max-w-4xl">
+          <div className="max-w-4xl mx-auto text-center space-y-8">
             <Reveal>
               <span className="label text-[var(--botanical)]">
-                ARYKEM CATALOGUE
+                ARYKEM PHARMACEUTICALS
               </span>
             </Reveal>
 
             <Reveal delay={0.1}>
-              <h1 className="display text-[var(--charcoal)] mt-6 mb-8">
-                The Arykem professional portfolio
+              <h1 className="display text-[var(--charcoal)] font-[var(--font-cormorant)]">
+                Product Catalogue
               </h1>
             </Reveal>
 
             <Reveal delay={0.2}>
-              <p className="body-large text-[var(--medium-grey)] max-w-3xl mb-10">
-                A consolidated view of Arykem&apos;s dermatology, aesthetic nutrition, 
-                skin health, and IV nutrition portfolio—designed for healthcare professionals 
-                seeking comprehensive product information.
+              <p className="h3 text-[var(--medium-grey)] font-normal max-w-3xl mx-auto">
+                Science for a Healthier Tomorrow
               </p>
             </Reveal>
 
             <Reveal delay={0.3}>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button href="/products" size="lg">
-                  Explore Products
-                </Button>
-                <Button href="/contact" variant="secondary" size="lg">
-                  Contact Arykem
-                </Button>
-              </div>
+              <p className="body-large text-[var(--medium-grey)] max-w-2xl mx-auto">
+                Comprehensive professional portfolio spanning dermatology, aesthetic nutrition, 
+                glutathione IV therapy, advanced skincare, and clinical wellness formulations.
+              </p>
             </Reveal>
-          </div>
-        </div>
-      </section>
 
-      {/* Portfolio Overview */}
-      <section className="section bg-[var(--ivory)]">
-        <div className="container">
-          <div className="max-w-3xl mb-16">
-            <Reveal>
-              <SectionHeading
-                label="Portfolio Overview"
-                title="8 formulations across 4 therapeutic categories"
-                subtitle="Arykem's current product range designed for professional dermatology and aesthetic practice."
-              />
-            </Reveal>
-          </div>
-
-          <div className="space-y-12">
-            {/* Aesthetic Nutrition */}
-            {aestheticNutrition.length > 0 && (
-              <Reveal delay={0.2}>
-                <div>
-                  <h3 className="text-xl font-medium text-[var(--charcoal)] mb-4 pb-4 border-b border-[var(--soft-grey)]">
-                    Aesthetic Nutrition
-                  </h3>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    {aestheticNutrition.map((product) => (
-                      <Link
-                        key={product.id}
-                        href={`/products/${product.slug}`}
-                        className="p-4 bg-[var(--warm-white)] border border-[var(--soft-grey)] hover:border-[var(--botanical)] transition-colors text-center"
-                      >
-                        <span className="text-lg font-medium text-[var(--charcoal)] font-[var(--font-cormorant)]">
-                          {product.name}
-                        </span>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              </Reveal>
-            )}
-
-            {/* Dermatology */}
-            {dermatology.length > 0 && (
-              <Reveal delay={0.3}>
-                <div>
-                  <h3 className="text-xl font-medium text-[var(--charcoal)] mb-4 pb-4 border-b border-[var(--soft-grey)]">
-                    Dermatology
-                  </h3>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    {dermatology.map((product) => (
-                      <Link
-                        key={product.id}
-                        href={`/products/${product.slug}`}
-                        className="p-4 bg-[var(--warm-white)] border border-[var(--soft-grey)] hover:border-[var(--botanical)] transition-colors text-center"
-                      >
-                        <span className="text-lg font-medium text-[var(--charcoal)] font-[var(--font-cormorant)]">
-                          {product.name}
-                        </span>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              </Reveal>
-            )}
-
-            {/* All Products Link */}
             <Reveal delay={0.4}>
-              <div className="text-center pt-8">
-                <Button href="/products" variant="secondary">
-                  View Complete Product Details
+              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
+                <Button 
+                  onClick={() => scrollToSection('index')}
+                  size="lg"
+                  className="group"
+                >
+                  Explore Products
+                  <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
                 </Button>
+                <Button
+                  onClick={generatePDF}
+                  variant="secondary"
+                  size="lg"
+                  disabled={isGeneratingPDF}
+                  className="group"
+                >
+                  <Download className="mr-2 group-hover:translate-y-0.5 transition-transform" size={20} />
+                  {isGeneratingPDF ? 'Generating PDF...' : 'Download Catalogue'}
+                </Button>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.5}>
+              <div className="pt-8">
+                <p className="text-sm text-[var(--medium-grey)] uppercase tracking-wider">
+                  Dermatology • Aesthetics • Clinical Wellness
+                </p>
               </div>
             </Reveal>
           </div>
         </div>
       </section>
 
-      {/* Professional Catalogue Resource */}
-      <section className="section bg-[var(--warm-white)]">
-        <div className="container">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Left: Visual */}
-            <Reveal>
-              <div className="relative aspect-[3/4] bg-gradient-to-br from-[var(--ivory)] via-[var(--soft-grey)] to-[var(--sand)] border border-[var(--soft-grey)] p-12 flex items-center justify-center">
-                {/* Abstract Document Stack */}
-                <div className="relative w-full h-full">
-                  <div className="absolute inset-0 bg-[var(--warm-white)] border-2 border-[var(--charcoal)]/10 translate-x-4 translate-y-4" />
-                  <div className="absolute inset-0 bg-[var(--warm-white)] border-2 border-[var(--charcoal)]/10 translate-x-2 translate-y-2" />
-                  <div className="absolute inset-0 bg-[var(--ivory)] border-2 border-[var(--charcoal)]/20 flex flex-col items-center justify-center p-8 text-center">
-                    <FileText size={48} className="text-[var(--botanical)] mb-6" />
-                    <h3 className="text-3xl font-medium text-[var(--charcoal)] mb-3 font-[var(--font-cormorant)]">
-                      ARYKEM
-                    </h3>
-                    <p className="label text-[var(--medium-grey)]">
-                      PRODUCT CATALOGUE
-                    </p>
-                    <div className="mt-6 text-sm text-[var(--medium-grey)]">
-                      Professional Resource
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Reveal>
-
-            {/* Right: Content */}
-            <div className="space-y-6">
-              <Reveal delay={0.2}>
-                <SectionHeading
-                  label="Professional Catalogue Resource"
-                  title="Comprehensive product information"
-                  subtitle="Detailed formulation, composition, and professional resource information consolidated for healthcare professionals."
-                />
+      {/* SECTION 02 — INTRODUCTION */}
+      <section 
+        data-catalogue-section="introduction"
+        className="section bg-[var(--warm-white)] border-y border-[var(--soft-grey)]"
+      >
+        <div className="container max-w-5xl">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            {/* Left - Heading */}
+            <div className="lg:col-span-5">
+              <Reveal>
+                <h2 className="h1 text-[var(--charcoal)] font-[var(--font-cormorant)] mb-6">
+                  Science. Care. Professional Confidence.
+                </h2>
               </Reveal>
+            </div>
 
-              <Reveal delay={0.3}>
-                <p className="body text-[var(--medium-grey)]">
-                  The Arykem professional catalogue will provide comprehensive information 
-                  on our complete dermatology and aesthetic portfolio, scientific rationale, 
-                  and application context for professional practice.
+            {/* Right - Content */}
+            <div className="lg:col-span-7 space-y-6">
+              <Reveal delay={0.2}>
+                <p className="body-large text-[var(--medium-grey)] leading-relaxed">
+                  Arykem Pharmaceuticals Pvt. Ltd. develops and presents science-led products 
+                  across dermatology, aesthetics, skin nutrition and clinical wellness, with a 
+                  focus on professional use, formulation clarity and responsible product communication.
                 </p>
               </Reveal>
 
-              <Reveal delay={0.4}>
-                <div className="pt-4">
-                  <Button href="/contact" variant="secondary" size="lg">
-                    Request Catalogue Information
-                  </Button>
+              <Reveal delay={0.3}>
+                <div className="grid grid-cols-3 gap-6 pt-6 border-t border-[var(--soft-grey)]">
+                  <div className="text-center lg:text-left">
+                    <div className="text-3xl md:text-4xl font-medium text-[var(--botanical)] font-[var(--font-cormorant)] mb-2">
+                      8
+                    </div>
+                    <p className="text-sm text-[var(--medium-grey)]">
+                      Products
+                    </p>
+                  </div>
+                  <div className="text-center lg:text-left">
+                    <div className="text-3xl md:text-4xl font-medium text-[var(--botanical)] font-[var(--font-cormorant)] mb-2">
+                      4
+                    </div>
+                    <p className="text-sm text-[var(--medium-grey)]">
+                      Categories
+                    </p>
+                  </div>
+                  <div className="text-center lg:text-left">
+                    <div className="text-3xl md:text-4xl font-medium text-[var(--botanical)] font-[var(--font-cormorant)] mb-2">
+                      100%
+                    </div>
+                    <p className="text-sm text-[var(--medium-grey)]">
+                      Science-Led
+                    </p>
+                  </div>
                 </div>
               </Reveal>
             </div>
@@ -233,145 +200,131 @@ export default function CataloguePage() {
         </div>
       </section>
 
-      {/* What the Catalogue Covers */}
-      <section className="section bg-[var(--charcoal)] text-[var(--ivory)]">
-        <div className="container">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <Reveal>
-              <SectionHeading
-                label="Catalogue Coverage"
-                title="Comprehensive professional information"
-                align="center"
-              />
-            </Reveal>
-          </div>
+      {/* SECTION 03 — PORTFOLIO INDEX */}
+      <section 
+        data-catalogue-section="index"
+        className="section bg-[var(--ivory)]"
+      >
+        <div className="container max-w-5xl">
+          <Reveal>
+            <h2 className="text-3xl md:text-4xl font-medium text-[var(--charcoal)] mb-12 text-center font-[var(--font-cormorant)]">
+              Portfolio Index
+            </h2>
+          </Reveal>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {catalogueCoverage.map((item, index) => {
-              const Icon = item.icon;
-              return (
-                <Reveal key={item.number} delay={0.1 * index}>
-                  <div className="p-8 bg-[var(--ivory)]/5 border border-[var(--ivory)]/10">
-                    <div className="flex items-start gap-6">
-                      <span className="text-5xl font-light text-[var(--botanical-light)]/40 font-[var(--font-cormorant)]">
-                        {item.number}
-                      </span>
-                      <div className="flex-1">
-                        <Icon size={32} className="text-[var(--botanical-light)] mb-4" />
-                        <h3 className="text-xl font-medium text-[var(--ivory)] mb-3">
-                          {item.title}
-                        </h3>
-                        <p className="body-small text-[var(--ivory)]/70">
-                          {item.description}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </Reveal>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Product Focus */}
-      <section className="section bg-[var(--ivory)]">
-        <div className="container">
-          <div className="max-w-3xl mb-16">
-            <Reveal>
-              <SectionHeading
-                label="Product Focus"
-                title="Featured formulations"
-                subtitle="Selected products representing Arykem's approach to aesthetic nutrition and skin health."
-              />
-            </Reveal>
-          </div>
-
-          <div className="space-y-8 max-w-4xl">
-            {featuredProducts.map((product, index) => (
-              <Reveal key={product.id} delay={0.1 * index}>
-                <Link
-                  href={`/products/${product.slug}`}
-                  className="group block p-8 bg-[var(--warm-white)] border border-[var(--soft-grey)] hover:border-[var(--botanical)] transition-all"
-                >
-                  <div className="flex flex-col md:flex-row md:items-start gap-8">
-                    {/* Product Image */}
-                    <div className="relative w-full md:w-48 aspect-square bg-white border border-[var(--soft-grey)] flex-shrink-0">
-                      <Image
-                        src={`/images/products/${product.slug}.png`}
-                        alt={`${product.name} — Arykem Pharmaceuticals`}
-                        fill
-                        sizes="(max-width: 768px) 50vw, 192px"
-                        className="object-contain p-6"
-                      />
-                    </div>
-
-                    {/* Product Info */}
+          <div className="space-y-8">
+            {catalogueCategories.map((category, index) => (
+              <Reveal key={category.id} delay={0.1 * index}>
+                <div className="bg-[var(--warm-white)] border border-[var(--soft-grey)] p-8">
+                  <div className="flex items-start gap-6 mb-6">
+                    <span className="text-5xl font-light text-[var(--botanical)]/40 font-[var(--font-cormorant)]">
+                      {category.number}
+                    </span>
                     <div className="flex-1">
-                      <span className="label uppercase tracking-wider text-[var(--botanical)]">
-                        {product.category}
-                      </span>
-                      <h3 className="text-2xl font-medium text-[var(--charcoal)] group-hover:text-[var(--botanical)] transition-colors mt-2 mb-3 font-[var(--font-cormorant)]">
-                        {product.name}
+                      <h3 className="text-2xl font-medium text-[var(--charcoal)] mb-2 font-[var(--font-cormorant)]">
+                        {category.title}
                       </h3>
-                      <p className="body text-[var(--medium-grey)] mb-4">
-                        {product.shortDescription}
+                      <p className="text-[var(--medium-grey)]">
+                        {category.subtitle}
                       </p>
-                      {product.form && (
-                        <span className="label text-[var(--medium-grey)]">
-                          {product.form}
-                        </span>
-                      )}
                     </div>
-
-                    {/* Composition Preview */}
-                    {product.composition && product.composition.length > 0 && (
-                      <div className="md:w-80 p-6 bg-[var(--ivory)] border border-[var(--soft-grey)] flex-shrink-0">
-                        <h4 className="label text-[var(--medium-grey)] mb-3">
-                          COMPOSITION
-                        </h4>
-                        <ul className="space-y-2">
-                          {product.composition.slice(0, 4).map((comp) => (
-                            <li key={comp.ingredient} className="text-sm text-[var(--charcoal)]">
-                              <span className="font-medium">{comp.ingredient}</span>
-                              <span className="text-[var(--medium-grey)]"> — {comp.amount}</span>
-                            </li>
-                          ))}
-                          {product.composition.length > 4 && (
-                            <li className="text-sm text-[var(--medium-grey)] italic">
-                              + {product.composition.length - 4} more
-                            </li>
-                          )}
-                        </ul>
-                      </div>
-                    )}
+                    <button
+                      onClick={() => scrollToSection(category.id)}
+                      className="text-[var(--botanical)] hover:text-[var(--charcoal)] transition-colors"
+                    >
+                      <ChevronRight size={24} />
+                    </button>
                   </div>
-                </Link>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pl-20">
+                    {category.products.map((productSlug) => {
+                      const product = getProductBySlug(productSlug);
+                      return product ? (
+                        <button
+                          key={productSlug}
+                          onClick={() => scrollToSection(productSlug)}
+                          className="text-left p-4 bg-[var(--ivory)] border border-[var(--soft-grey)] hover:border-[var(--botanical)] transition-colors group"
+                        >
+                          <div className="flex items-center justify-between">
+                            <span className="font-medium text-[var(--charcoal)] group-hover:text-[var(--botanical)] transition-colors">
+                              {product.name}
+                            </span>
+                            <ArrowRight size={16} className="text-[var(--medium-grey)] group-hover:translate-x-1 transition-transform" />
+                          </div>
+                        </button>
+                      ) : null;
+                    })}
+                  </div>
+                </div>
               </Reveal>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Professional CTA */}
+      {/* PRODUCT CATALOGUE SECTIONS */}
+      {catalogueCategories.map((category, catIndex) => (
+        <div key={category.id}>
+          {/* Category Header */}
+          <section 
+            data-catalogue-section={category.id}
+            className="section bg-[var(--charcoal)] text-[var(--ivory)]"
+          >
+            <div className="container max-w-5xl">
+              <Reveal>
+                <div className="flex items-center gap-8 mb-6">
+                  <span className="text-6xl font-light text-[var(--botanical)]/40 font-[var(--font-cormorant)]">
+                    {category.number}
+                  </span>
+                  <div>
+                    <h2 className="text-3xl md:text-4xl font-medium text-[var(--ivory)] font-[var(--font-cormorant)]">
+                      {category.title}
+                    </h2>
+                    <p className="text-[var(--ivory)]/70 mt-2">
+                      {category.subtitle}
+                    </p>
+                  </div>
+                </div>
+              </Reveal>
+            </div>
+          </section>
+
+          {/* Category Products */}
+          {category.products.map((productSlug, prodIndex) => {
+            const product = getProductBySlug(productSlug);
+            if (!product) return null;
+
+            return (
+              <CatalogueProductSection
+                key={productSlug}
+                product={product}
+                index={prodIndex}
+                categoryId={category.id}
+              />
+            );
+          })}
+        </div>
+      ))}
+
+      {/* FOOTER CTA */}
       <section className="section bg-[var(--charcoal)] text-[var(--ivory)]">
         <div className="container max-w-3xl text-center">
           <Reveal>
-            <h2 className="h1 text-[var(--ivory)] mb-6 font-[var(--font-cormorant)]">
-              Explore the portfolio
+            <h2 className="text-3xl md:text-4xl font-medium text-[var(--ivory)] mb-6 font-[var(--font-cormorant)]">
+              Explore the Wider Arykem Portfolio
             </h2>
           </Reveal>
 
           <Reveal delay={0.2}>
-            <p className="body-large text-[var(--ivory)]/70 mb-8">
-              Discover the complete Arykem range of dermatology and aesthetic formulations.
+            <p className="text-lg text-[var(--ivory)]/70 mb-8">
+              Discover detailed product information, scientific rationale, and professional resources.
             </p>
           </Reveal>
 
           <Reveal delay={0.3}>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button href="/products" size="lg">
-                View Products
+                View All Products
               </Button>
               <Button 
                 href="/contact" 
@@ -379,12 +332,302 @@ export default function CataloguePage() {
                 size="lg"
                 className="text-[var(--ivory)] border-2 border-[var(--ivory)]/20 hover:bg-[var(--ivory)]/10 hover:border-[var(--ivory)]/40"
               >
-                Contact Arykem
+                Contact Us
               </Button>
             </div>
           </Reveal>
         </div>
       </section>
     </div>
+  );
+}
+
+// Catalogue Product Section Component
+function CatalogueProductSection({ product, index, categoryId }) {
+  const fullProductName = product.fullName || product.name;
+  const productImageAlt = product.imageAlt || `${fullProductName} — Arykem Pharmaceuticals`;
+
+  return (
+    <section
+      data-catalogue-section={product.slug}
+      id={product.slug}
+      className="section bg-[var(--ivory)] border-b border-[var(--soft-grey)]"
+    >
+      <div className="container max-w-6xl">
+        {/* Product Header */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 mb-16">
+          {/* Product Image */}
+          <Reveal delay={0.1}>
+            <div className="relative aspect-square bg-white border-2 border-[var(--soft-grey)]">
+              <Image
+                src={`/images/products/${product.slug}.png`}
+                alt={productImageAlt}
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-contain p-12"
+              />
+            </div>
+          </Reveal>
+
+          {/* Product Overview */}
+          <div className="space-y-6">
+            <Reveal delay={0.2}>
+              <span className="label text-[var(--botanical)]">
+                {product.category}
+              </span>
+            </Reveal>
+
+            <Reveal delay={0.3}>
+              <h3 className="text-4xl md:text-5xl font-medium text-[var(--charcoal)] font-[var(--font-cormorant)]">
+                {product.name}
+              </h3>
+            </Reveal>
+
+            {product.fullName && product.fullName !== product.name && (
+              <Reveal delay={0.35}>
+                <p className="text-xl text-[var(--medium-grey)] font-medium">
+                  {product.fullName}
+                </p>
+              </Reveal>
+            )}
+
+            {product.positioning && (
+              <Reveal delay={0.4}>
+                <p className="text-lg text-[var(--charcoal)] italic border-l-4 border-[var(--botanical)] pl-6 py-2">
+                  {product.positioning}
+                </p>
+              </Reveal>
+            )}
+
+            <Reveal delay={0.5}>
+              <p className="body-large text-[var(--medium-grey)] leading-relaxed">
+                {product.description}
+              </p>
+            </Reveal>
+
+            {/* Pack Information */}
+            <Reveal delay={0.6}>
+              <div className="grid grid-cols-2 gap-4 pt-4 border-t border-[var(--soft-grey)]">
+                {product.form && (
+                  <div>
+                    <span className="label text-[var(--medium-grey)]">FORM</span>
+                    <p className="body mt-1 text-[var(--charcoal)]">{product.form}</p>
+                  </div>
+                )}
+                {product.packSize && (
+                  <div>
+                    <span className="label text-[var(--medium-grey)]">PACK</span>
+                    <p className="body mt-1 text-[var(--charcoal)]">{product.packSize}</p>
+                  </div>
+                )}
+                {product.route && (
+                  <div>
+                    <span className="label text-[var(--medium-grey)]">ROUTE</span>
+                    <p className="body mt-1 text-[var(--charcoal)]">{product.route}</p>
+                  </div>
+                )}
+                {product.servingsPerPack && (
+                  <div>
+                    <span className="label text-[var(--medium-grey)]">SERVINGS</span>
+                    <p className="body mt-1 text-[var(--charcoal)]">{product.servingsPerPack}</p>
+                  </div>
+                )}
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.7}>
+              <Link
+                href={`/products/${product.slug}`}
+                className="inline-flex items-center gap-2 text-[var(--botanical)] font-medium hover:gap-4 transition-all"
+              >
+                View Full Product Details
+                <ArrowRight size={20} />
+              </Link>
+            </Reveal>
+          </div>
+        </div>
+
+        {/* Composition */}
+        {product.composition && product.composition.length > 0 && (
+          <div className="mb-16">
+            <Reveal>
+              <h4 className="text-2xl font-medium text-[var(--charcoal)] mb-8 font-[var(--font-cormorant)]">
+                Composition
+              </h4>
+            </Reveal>
+
+            <div className="space-y-4">
+              {product.composition.map((comp, idx) => (
+                <Reveal key={idx} delay={0.05 * idx}>
+                  <div className="grid grid-cols-1 md:grid-cols-12 gap-4 p-6 bg-[var(--warm-white)] border border-[var(--soft-grey)]">
+                    <div className="md:col-span-4">
+                      <h5 className="font-semibold text-[var(--charcoal)]">
+                        {comp.ingredient}
+                      </h5>
+                    </div>
+                    <div className="md:col-span-2">
+                      <span className="label text-[var(--medium-grey)]">AMOUNT</span>
+                      <p className="body text-[var(--charcoal)] mt-1">{comp.amount}</p>
+                    </div>
+                    <div className="md:col-span-6">
+                      <span className="label text-[var(--medium-grey)]">ROLE</span>
+                      <p className="body-small text-[var(--medium-grey)] mt-1">{comp.role}</p>
+                    </div>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Benefits */}
+        {product.benefits && product.benefits.length > 0 && (
+          <div className="mb-16">
+            <Reveal>
+              <h4 className="text-2xl font-medium text-[var(--charcoal)] mb-8 font-[var(--font-cormorant)]">
+                Key Support Areas
+              </h4>
+            </Reveal>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {product.benefits.map((benefit, idx) => (
+                <Reveal key={idx} delay={0.05 * idx}>
+                  <div className="flex items-start gap-3 p-4 bg-[var(--warm-white)] border-l-4 border-[var(--botanical)]">
+                    <div className="w-1.5 h-1.5 mt-2 rounded-full bg-[var(--botanical)] flex-shrink-0" />
+                    <p className="body text-[var(--charcoal)]">{benefit}</p>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Ideal For */}
+        {product.idealFor && product.idealFor.length > 0 && (
+          <div className="mb-16">
+            <Reveal>
+              <h4 className="text-2xl font-medium text-[var(--charcoal)] mb-8 font-[var(--font-cormorant)]">
+                Ideal For
+              </h4>
+            </Reveal>
+
+            <div className="bg-[var(--warm-white)] border border-[var(--soft-grey)] p-8">
+              <div className="space-y-4">
+                {product.idealFor.map((item, idx) => (
+                  <Reveal key={idx} delay={0.05 * idx}>
+                    <div className="flex items-start gap-4">
+                      <div className="w-1 h-1 mt-2.5 rounded-full bg-[var(--medium-grey)] flex-shrink-0" />
+                      <p className="body text-[var(--charcoal)]">{item}</p>
+                    </div>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Directions */}
+        {product.directions && (
+          <div className="mb-16">
+            <Reveal>
+              <h4 className="text-2xl font-medium text-[var(--charcoal)] mb-8 font-[var(--font-cormorant)]">
+                Directions for Use
+              </h4>
+            </Reveal>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {product.directions.howToUse && (
+                <Reveal delay={0.1}>
+                  <div className="p-6 bg-[var(--warm-white)] border border-[var(--soft-grey)]">
+                    <h5 className="font-semibold text-[var(--charcoal)] mb-3">How to Use</h5>
+                    <p className="body-small text-[var(--medium-grey)]">{product.directions.howToUse}</p>
+                  </div>
+                </Reveal>
+              )}
+
+              {product.directions.recommended && (
+                <Reveal delay={0.2}>
+                  <div className="p-6 bg-[var(--warm-white)] border border-[var(--soft-grey)]">
+                    <h5 className="font-semibold text-[var(--charcoal)] mb-3">Recommended</h5>
+                    <p className="body-small text-[var(--medium-grey)]">{product.directions.recommended}</p>
+                  </div>
+                </Reveal>
+              )}
+
+              {product.directions.schedule && (
+                <Reveal delay={0.3}>
+                  <div className="p-6 bg-[var(--warm-white)] border border-[var(--soft-grey)] md:col-span-2">
+                    <h5 className="font-semibold text-[var(--charcoal)] mb-3">Suggested Schedule</h5>
+                    <p className="body-small text-[var(--medium-grey)] mb-2">{product.directions.schedule}</p>
+                    {product.directions.note && (
+                      <p className="body-small text-[var(--medium-grey)]/70 italic text-sm">
+                        Note: {product.directions.note}
+                      </p>
+                    )}
+                  </div>
+                </Reveal>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* HCP Discussion Points */}
+        {product.hcpDiscussionPoints && product.hcpDiscussionPoints.length > 0 && (
+          <div className="mb-16">
+            <Reveal>
+              <h4 className="text-2xl font-medium text-[var(--charcoal)] mb-8 font-[var(--font-cormorant)]">
+                Healthcare Professional Discussion Points
+              </h4>
+            </Reveal>
+
+            <div className="bg-[var(--charcoal)] text-[var(--ivory)] p-8">
+              <div className="space-y-4">
+                {product.hcpDiscussionPoints.map((point, idx) => (
+                  <Reveal key={idx} delay={0.05 * idx}>
+                    <div className="flex items-start gap-4">
+                      <div className="w-1.5 h-1.5 mt-2 rounded-full bg-[var(--botanical)] flex-shrink-0" />
+                      <p className="body text-[var(--ivory)]/90">{point}</p>
+                    </div>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Safety & Prescription Status */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+          {product.prescriptionStatus && (
+            <Reveal>
+              <div className="p-6 bg-[var(--botanical)]/10 border-l-4 border-[var(--botanical)]">
+                <p className="font-semibold text-[var(--charcoal)]">
+                  {product.prescriptionStatus}
+                </p>
+              </div>
+            </Reveal>
+          )}
+
+          {product.warning && (
+            <Reveal delay={0.1}>
+              <div className="p-6 bg-[var(--charcoal)] text-[var(--ivory)]">
+                <p className="text-sm font-medium">
+                  ⚠️ {product.warning}
+                </p>
+              </div>
+            </Reveal>
+          )}
+
+          {product.disclaimer && (
+            <Reveal delay={0.2}>
+              <div className="p-6 bg-[var(--warm-white)] border border-[var(--soft-grey)] md:col-span-2">
+                <p className="body-small text-[var(--medium-grey)] italic text-center">
+                  {product.disclaimer}
+                </p>
+              </div>
+            </Reveal>
+          )}
+        </div>
+      </div>
+    </section>
   );
 }

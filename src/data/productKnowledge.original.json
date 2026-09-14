@@ -1,0 +1,448 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-15",
+    "knowledgeType": "Product Information & Scientific Education",
+    "disclaimer": "This knowledge base provides general product and scientific information only. It does not diagnose, prescribe, recommend individualized treatment or replace advice from a qualified healthcare professional."
+  },
+  "brand": {
+    "name": "Arykem Pharmaceuticals Private Limited",
+    "shortName": "Arykem",
+    "websitePurpose": "Corporate product and professional information website",
+    "portfolioSize": 8,
+    "categories": [
+      "Dermatology",
+      "Aesthetic Nutrition",
+      "Glutathione IV Therapy",
+      "Advanced Skincare",
+      "Clinical Wellness"
+    ],
+    "medicalDisclaimer": "All Arykem products are intended for use as directed. IV products must be administered only by qualified healthcare professionals. Nutraceuticals and topical products should be used as per label instructions or professional guidance.",
+    "removedProducts": [
+      "EVADOME DSR",
+      "EVADOM DSR",
+      "CZARLIV",
+      "VFH GOLD"
+    ],
+    "currentProducts": [
+      "X-GLUTA TAB",
+      "X-GLUTA IV 600 mg",
+      "X-GLUTA IV 1200 mg",
+      "X-GLUTA IV 2000 mg",
+      "MarineX",
+      "LA3C",
+      "REPOB",
+      "KTOSEVEN"
+    ]
+  },
+  "products": [
+    {
+      "id": "x-gluta-tab",
+      "name": "X-GLUTA TAB",
+      "fullName": "X-GLUTA Effervescent Tablet",
+      "aliases": [
+        "xgluta tab",
+        "x gluta tablet",
+        "xgluta",
+        "gluta tab",
+        "x-gluta effervescent"
+      ],
+      "category": "Advanced Antioxidant Nutrition / Skin Nutrition",
+      "type": "Nutraceutical",
+      "verifiedFacts": {
+        "form": "Effervescent Tablet",
+        "pack": "30 Effervescent Tablets (2 tubes of 15 tablets each)",
+        "route": "Oral",
+        "prescriptionStatus": "Nutraceutical - Professional guidance recommended"
+      },
+      "composition": [
+        {
+          "ingredient": "L-Glutathione",
+          "amount": "500 mg",
+          "role": "Primary antioxidant supporting cellular redox balance and antioxidant defence",
+          "verified": true
+        },
+        {
+          "ingredient": "Astaxanthin",
+          "amount": "6 mg",
+          "role": "Carotenoid antioxidant supporting cellular protection from oxidative stress",
+          "verified": true
+        },
+        {
+          "ingredient": "N-Acetyl L-Cysteine (NAC)",
+          "amount": "50 mg",
+          "role": "Cysteine precursor supporting endogenous glutathione synthesis",
+          "verified": true
+        },
+        {
+          "ingredient": "Vitamin C",
+          "amount": "40 mg",
+          "role": "Antioxidant nutrient supporting collagen formation and glutathione recycling",
+          "verified": true
+        }
+      ],
+      "positioning": "Multi-antioxidant effervescent formulation designed to support the body's natural antioxidant defence and promote skin health through nutritional support",
+      "scientificExplanation": [
+        {
+          "topic": "L-Glutathione",
+          "simpleExplanation": "Glutathione is a naturally occurring antioxidant in the body that helps protect cells from damage caused by harmful substances called free radicals.",
+          "professionalExplanation": "Glutathione (GSH) is a tripeptide composed of glutamate, cysteine, and glycine. It is the predominant non-enzymatic antioxidant in mammalian cells, existing primarily in reduced (GSH) and oxidized (GSSG) forms. GSH participates in cellular redox homeostasis, xenobiotic metabolism, and protection against oxidative stress through multiple enzymatic pathways including glutathione peroxidase and glutathione S-transferase systems.",
+          "evidenceLevel": "Well-established in scientific literature",
+          "sources": [
+            {
+              "title": "Glutathione Metabolism and Its Implications for Health",
+              "organization": "NIH - National Library of Medicine",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4684116/",
+              "type": "Peer-reviewed research",
+              "accessed": "2024-01"
+            }
+          ],
+          "limitations": "Individual responses to oral glutathione supplementation vary. Bioavailability and clinical outcomes depend on multiple factors including baseline glutathione status, oxidative stress burden, and overall nutritional state.",
+          "publicDisplay": true
+        },
+        {
+          "topic": "Astaxanthin",
+          "simpleExplanation": "Astaxanthin is a red-orange pigment found in algae and seafood that acts as a powerful antioxidant to help protect cells from damage.",
+          "professionalExplanation": "Astaxanthin is a xanthophyll carotenoid with potent antioxidant properties. It is naturally synthesized by microalgae (Haematococcus pluvialis) and accumulates in aquatic organisms. The conjugated double-bond structure enables astaxanthin to neutralize singlet oxygen and peroxyl radicals. Research suggests astaxanthin may support skin health through antioxidant mechanisms, though clinical outcomes vary.",
+          "evidenceLevel": "Moderate evidence from clinical studies",
+          "sources": [
+            {
+              "title": "Therapeutic Applications of Astaxanthin",
+              "organization": "NIH - Office of Dietary Supplements",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6523779/",
+              "type": "Scientific review",
+              "accessed": "2024-01"
+            }
+          ],
+          "limitations": "Optimal dosing, long-term safety, and specific clinical outcomes require further research. Results may vary based on individual factors.",
+          "publicDisplay": true
+        },
+        {
+          "topic": "N-Acetyl L-Cysteine (NAC)",
+          "simpleExplanation": "NAC provides the body with cysteine, which is used to make glutathione, helping support the body's natural antioxidant system.",
+          "professionalExplanation": "N-acetyl-L-cysteine is a modified form of the amino acid cysteine with enhanced stability. Cysteine availability is often the rate-limiting factor in glutathione biosynthesis. NAC serves as a cysteine donor, potentially supporting endogenous glutathione synthesis through the γ-glutamylcysteine synthetase and glutathione synthetase enzymatic pathway. NAC also exhibits direct antioxidant properties through its free thiol group.",
+          "evidenceLevel": "Well-documented mechanism",
+          "sources": [
+            {
+              "title": "N-Acetylcysteine and Glutathione",
+              "organization": "NIH - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17982946/",
+              "type": "Clinical research",
+              "accessed": "2024-01"
+            }
+          ],
+          "limitations": "The extent to which oral NAC increases tissue glutathione levels varies among individuals and tissues.",
+          "publicDisplay": true
+        },
+        {
+          "topic": "Vitamin C and Antioxidant Synergy",
+          "simpleExplanation": "Vitamin C works together with glutathione to provide antioxidant protection and supports the body's collagen production.",
+          "professionalExplanation": "Ascorbic acid (vitamin C) functions as a water-soluble antioxidant and participates in the regeneration of oxidized glutathione (GSSG) back to reduced glutathione (GSH) through enzymatic and non-enzymatic mechanisms. Vitamin C is also an essential cofactor for prolyl and lysyl hydroxylase enzymes involved in collagen biosynthesis. The combination of vitamin C with glutathione represents a synergistic antioxidant approach addressing multiple redox pathways.",
+          "evidenceLevel": "Established biochemical mechanism",
+          "sources": [
+            {
+              "title": "Vitamin C and Immune Function",
+              "organization": "NIH - Office of Dietary Supplements",
+              "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+              "type": "Scientific fact sheet",
+              "accessed": "2024-01"
+            }
+          ],
+          "limitations": "Clinical benefits depend on baseline vitamin C status and individual health factors.",
+          "publicDisplay": true
+        },
+        {
+          "topic": "Effervescent Delivery Format",
+          "simpleExplanation": "Effervescent tablets dissolve in water, creating a fizzy drink that is easy and convenient to consume.",
+          "professionalExplanation": "Effervescent formulations utilize acid-base reactions (typically citric acid and sodium bicarbonate) to facilitate rapid dissolution and potentially enhance palatability. While some literature suggests effervescent formats may improve absorption for certain nutrients, definitive bioavailability advantages depend on the specific active ingredients and individual factors.",
+          "evidenceLevel": "Format convenience established; bioavailability advantages vary",
+          "sources": [
+            {
+              "title": "Pharmaceutical Effervescent Formulations",
+              "organization": "Pharmaceutical Sciences Research",
+              "type": "Technical review",
+              "accessed": "2024-01"
+            }
+          ],
+          "limitations": "Claims of superior absorption should be supported by product-specific pharmacokinetic data.",
+          "publicDisplay": true
+        }
+      ],
+      "benefits": [
+        "Supports the body's natural antioxidant defence system",
+        "Provides nutritional support for skin health and radiance",
+        "Contributes to cellular protection from oxidative stress",
+        "Supports hydration and elasticity through antioxidant nutrition",
+        "Convenient effervescent format for daily use"
+      ],
+      "idealFor": [
+        "Individuals seeking antioxidant nutritional support",
+        "Those with dull or tired-looking skin",
+        "People exposed to environmental stressors (pollution, UV radiation)",
+        "Adults looking for comprehensive skin nutrition",
+        "Those preferring convenient effervescent delivery"
+      ],
+      "directions": {
+        "usage": "Dissolve 1 effervescent tablet in a glass of water and consume daily, or as directed by a healthcare professional",
+        "timing": "Can be taken at any convenient time",
+        "precautions": [
+          "Follow label instructions",
+          "Consult healthcare professional if pregnant, nursing, or taking medications",
+          "Keep out of reach of children",
+          "Store in a cool, dry place"
+        ]
+      },
+      "safety": {
+        "generalSafety": "Generally well-tolerated when used as directed",
+        "contraindications": [
+          "Known allergy to any ingredient",
+          "Consult healthcare professional before use if you have medical conditions",
+          "Consult healthcare professional if taking medications"
+        ],
+        "adverseEffects": "Discontinue use and consult healthcare professional if adverse reactions occur",
+        "pregnancyLactation": "Consult healthcare professional before use during pregnancy or lactation"
+      },
+      "importantNotes": [
+        "This is a nutraceutical, not a medicine",
+        "Not intended to diagnose, treat, cure, or prevent any disease",
+        "Individual results may vary",
+        "Does not guarantee skin whitening or permanent skin color change",
+        "Professional guidance recommended for optimal use"
+      ],
+      "faq": [
+        {
+          "question": "What is X-GLUTA TAB?",
+          "variations": [
+            "xgluta tab kya hai",
+            "what is x gluta",
+            "tell me about xgluta tab"
+          ],
+          "answer": "X-GLUTA TAB is an effervescent antioxidant nutraceutical tablet containing L-Glutathione (500 mg), Astaxanthin (6 mg), N-Acetyl L-Cysteine (50 mg), and Vitamin C (40 mg). It is designed to support the body's natural antioxidant defence and promote skin health through nutritional support.",
+          "category": "Product Overview"
+        },
+        {
+          "question": "What are the ingredients in X-GLUTA TAB?",
+          "variations": [
+            "ingredients",
+            "composition",
+            "what does it contain",
+            "kya kya hai isme"
+          ],
+          "answer": "X-GLUTA TAB contains: L-Glutathione 500 mg, Astaxanthin 6 mg, N-Acetyl L-Cysteine (NAC) 50 mg, and Vitamin C 40 mg per tablet.",
+          "category": "Composition"
+        },
+        {
+          "question": "How does glutathione work?",
+          "variations": [
+            "glutathione ka kaam",
+            "mechanism of glutathione",
+            "what does glutathione do"
+          ],
+          "answer": "Glutathione is a naturally occurring antioxidant in the body that helps protect cells from oxidative damage. It exists in reduced (GSH) and oxidized (GSSG) forms and participates in cellular redox balance. It works through enzymatic systems to neutralize harmful reactive species and support cellular health.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "Why is NAC included in the formula?",
+          "variations": [
+            "nac ka role",
+            "why nac",
+            "what is nac for",
+            "nac kyu hai"
+          ],
+          "answer": "NAC (N-Acetyl L-Cysteine) provides cysteine, which is a key building block needed by the body to make its own glutathione. Cysteine availability is often the limiting factor in glutathione production, so NAC helps support the body's endogenous glutathione synthesis pathway.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "What is astaxanthin?",
+          "variations": [
+            "astaxanthin kya hai",
+            "what does astaxanthin do",
+            "astaxanthin benefits"
+          ],
+          "answer": "Astaxanthin is a powerful carotenoid antioxidant naturally found in microalgae. It has a unique molecular structure that helps protect cells from oxidative stress. In X-GLUTA TAB, it provides complementary antioxidant support alongside glutathione.",
+          "category": "Scientific Explanation"
+        },
+        {
+          "question": "Is X-GLUTA TAB a medicine or supplement?",
+          "variations": [
+            "medicine hai ya supplement",
+            "is it a drug",
+            "prescription required"
+          ],
+          "answer": "X-GLUTA TAB is a nutraceutical (dietary supplement), not a medicine. However, professional guidance is recommended for optimal use. It is not intended to diagnose, treat, cure, or prevent any disease.",
+          "category": "Product Classification"
+        },
+        {
+          "question": "Does X-GLUTA TAB whiten skin?",
+          "variations": [
+            "skin whitening",
+            "fairness",
+            "skin gora karega",
+            "does it lighten skin",
+            "skin tone change"
+          ],
+          "answer": "X-GLUTA TAB provides antioxidant nutritional support that may contribute to healthier-looking, more radiant skin. However, it does not guarantee skin whitening, permanent skin color change, or fairness. Individual results vary based on many factors including genetics, sun exposure, and overall health. It should not be viewed as a skin bleaching agent.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "How is X-GLUTA TAB different from X-GLUTA IV?",
+          "variations": [
+            "tab vs iv",
+            "oral vs injection",
+            "difference between tablet and iv"
+          ],
+          "answer": "X-GLUTA TAB is an oral effervescent tablet taken by mouth, while X-GLUTA IV is an injectable formulation administered intravenously by qualified healthcare professionals. The oral route passes through the digestive system, while IV administration delivers the ingredients directly into the bloodstream. The IV products are prescription-only and require medical supervision, while the TAB is a nutraceutical for general use with professional guidance recommended.",
+          "category": "Product Comparison"
+        },
+        {
+          "question": "How many tablets are in one pack?",
+          "variations": [
+            "pack size",
+            "kitne tablet hai",
+            "how many tablets",
+            "quantity"
+          ],
+          "answer": "One pack of X-GLUTA TAB contains 30 effervescent tablets, packaged as 2 tubes with 15 tablets each.",
+          "category": "Pack Information"
+        },
+        {
+          "question": "How should I take X-GLUTA TAB?",
+          "variations": [
+            "directions",
+            "kaise le",
+            "how to use",
+            "usage instructions"
+          ],
+          "answer": "Dissolve 1 effervescent tablet in a glass of water and consume daily, or as directed by a healthcare professional. The effervescent format makes it easy and convenient to take.",
+          "category": "Directions"
+        },
+        {
+          "question": "Can everyone take X-GLUTA TAB?",
+          "variations": [
+            "who can take",
+            "safe for everyone",
+            "contraindications",
+            "kon le sakta hai"
+          ],
+          "answer": "While X-GLUTA TAB is generally well-tolerated, you should consult a healthcare professional before use if you are pregnant, nursing, taking medications, or have any medical conditions. Do not use if you have a known allergy to any ingredient.",
+          "category": "Safety"
+        },
+        {
+          "question": "What precautions should I follow?",
+          "variations": [
+            "safety measures",
+            "kya dhyan rakhe",
+            "precautions",
+            "warnings"
+          ],
+          "answer": "Follow the label instructions, consult a healthcare professional if you have medical conditions or are taking medications, keep out of reach of children, and store in a cool, dry place. Discontinue use if you experience any adverse reactions.",
+          "category": "Safety"
+        },
+        {
+          "question": "Is it safe during pregnancy?",
+          "variations": [
+            "pregnancy safe",
+            "can pregnant women take",
+            "pregnancy me le sakte hai"
+          ],
+          "answer": "If you are pregnant or nursing, please consult your healthcare professional before using X-GLUTA TAB or any dietary supplement.",
+          "category": "Safety"
+        },
+        {
+          "question": "Will it work for everyone?",
+          "variations": [
+            "results guaranteed",
+            "effectiveness",
+            "will I see results"
+          ],
+          "answer": "Individual results may vary. X-GLUTA TAB provides antioxidant nutritional support, but outcomes depend on many factors including baseline nutritional status, lifestyle, genetics, and overall health. It is not a guaranteed treatment and does not replace a healthy lifestyle or medical care.",
+          "category": "Benefits & Limitations"
+        },
+        {
+          "question": "Can I take it with other supplements?",
+          "variations": [
+            "drug interactions",
+            "other vitamins",
+            "combination safe"
+          ],
+          "answer": "Please consult your healthcare professional before combining X-GLUTA TAB with other supplements or medications to ensure safety and avoid potential interactions.",
+          "category": "Safety"
+        }
+      ],
+      "comparisonTags": [
+        "oral",
+        "effervescent",
+        "antioxidant",
+        "skin-nutrition",
+        "nutraceutical",
+        "gluta-family"
+      ],
+      "relatedProducts": [
+        "x-gluta-iv-600",
+        "x-gluta-iv-1200",
+        "x-gluta-iv-2000",
+        "marinex",
+        "la3c"
+      ]
+    }
+  ],
+  "generalScience": [
+    {
+      "topic": "What is Oxidative Stress?",
+      "simpleExplanation": "Oxidative stress occurs when there are too many harmful molecules called 'free radicals' in the body and not enough antioxidants to neutralize them. This imbalance can damage cells.",
+      "professionalExplanation": "Oxidative stress represents an imbalance between the production of reactive oxygen species (ROS) and the biological system's ability to neutralize these reactive intermediates through antioxidant defences. ROS include superoxide anion, hydrogen peroxide, and hydroxyl radical. While ROS play physiological signaling roles, excessive accumulation can damage lipids, proteins, and nucleic acids, potentially contributing to various pathological processes.",
+      "sources": [
+        {
+          "title": "Free Radicals and Antioxidants in Normal Physiological Functions",
+          "organization": "NIH",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3614697/",
+          "type": "Scientific review"
+        }
+      ],
+      "publicDisplay": true
+    },
+    {
+      "topic": "What are Antioxidants?",
+      "simpleExplanation": "Antioxidants are substances that help protect the body's cells from damage caused by harmful molecules. They work like shields to keep cells healthy.",
+      "professionalExplanation": "Antioxidants are molecules capable of inhibiting the oxidation of other molecules by donating electrons to free radicals, thereby neutralizing their reactivity. The body's antioxidant system includes enzymatic defences (superoxide dismutase, catalase, glutathione peroxidase) and non-enzymatic defences (glutathione, vitamin C, vitamin E, carotenoids). These systems work synergistically to maintain cellular redox homeostasis.",
+      "sources": [
+        {
+          "title": "Antioxidants: In Depth",
+          "organization": "NIH - National Center for Complementary and Integrative Health",
+          "url": "https://www.nccih.nih.gov/health/antioxidants-in-depth",
+          "type": "Health information"
+        }
+      ],
+      "publicDisplay": true
+    }
+  ],
+  "safetyRules": [
+    {
+      "rule": "Never provide personalized medical advice",
+      "explanation": "Always direct users to consult qualified healthcare professionals for individual medical guidance"
+    },
+    {
+      "rule": "Never provide IV administration instructions",
+      "explanation": "IV products require professional medical supervision. Never provide dilution, infusion rate, or dosing schedules"
+    },
+    {
+      "rule": "Never diagnose conditions",
+      "explanation": "Symptoms or health concerns should be evaluated by qualified healthcare professionals"
+    },
+    {
+      "rule": "Never guarantee medical outcomes",
+      "explanation": "Use cautious language like 'may support', 'contributes to', 'associated with' rather than guaranteed results"
+    },
+    {
+      "rule": "Emergency situations require immediate medical care",
+      "explanation": "For severe reactions, overdose, or emergencies, direct to emergency services immediately"
+    }
+  ],
+  "fallbackAnswers": {
+    "unknownQuestion": "I don't have a verified answer for that specific question in the current Arykem product knowledge base. Please contact the Arykem team or consult a qualified healthcare professional for confirmation.",
+    "medicalAdvice": "I provide general product and scientific information only. For personalized medical advice, diagnosis, or treatment recommendations, please consult a qualified healthcare professional.",
+    "emergency": "This chat provides general product information only and is not emergency medical care. Please contact a qualified healthcare professional or local emergency service immediately.",
+    "removedProduct": "That product is not part of the current Arykem portfolio. Our current range includes: X-GLUTA TAB, X-GLUTA IV (600/1200/2000 mg), MarineX, LA3C, REPOB, and KTOSEVEN.",
+    "unverifiedDetail": "This specific detail is not available in the verified Arykem product information. Please confirm with the Arykem team or check the product label."
+  }
+}
